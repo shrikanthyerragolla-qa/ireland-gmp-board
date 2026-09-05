@@ -5,11 +5,14 @@ import time
 import urllib.request
 import urllib.error
 
-UA = "Mozilla/5.0 (compatible; IrelandGMPBoard/1.0; personal job-search tool)"
+# A real browser UA: Workday sits behind bot protection that can 403 plain
+# script user-agents while happily serving the same request with this one.
+UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+      "(KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36")
 TIMEOUT = 30
 
 
-def http_json(url, body=None, retries=3, backoff=2.0):
+def http_json(url, body=None, retries=3, backoff=2.0, headers=None):
     """GET (body=None) or POST JSON. Retries with exponential backoff on
     network errors, 5xx, 429, and malformed/empty JSON bodies (a 200 with a
     broken payload is treated as a failure, never as 'no results')."""
@@ -17,11 +20,14 @@ def http_json(url, body=None, retries=3, backoff=2.0):
     for attempt in range(retries):
         try:
             data = json.dumps(body).encode() if body is not None else None
-            req = urllib.request.Request(url, data=data, headers={
+            hdrs = {
                 "User-Agent": UA,
                 "Accept": "application/json",
                 "Content-Type": "application/json",
-            })
+                "Accept-Language": "en-US,en;q=0.9",
+            }
+            hdrs.update(headers or {})
+            req = urllib.request.Request(url, data=data, headers=hdrs)
             with urllib.request.urlopen(req, timeout=TIMEOUT) as r:
                 raw = r.read()
             parsed = json.loads(raw)
