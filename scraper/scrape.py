@@ -15,6 +15,7 @@ import json
 import pathlib
 import re
 import sys
+import time
 
 from common import (http_json, looks_irish, county_of, tag, fit_flag)
 
@@ -25,7 +26,7 @@ TODAY = dt.date.today().isoformat()
 
 SECTOR = {"West Pharmaceutical Services": "MedTech"}
 PAGE = 20
-MAX_DETAIL_WORKERS = 6
+MAX_DETAIL_WORKERS = 4  # gentle on Workday's rate limiter
 
 
 def _strip_html(html):
@@ -34,10 +35,15 @@ def _strip_html(html):
 
 # ---------------------------------------------------------------- Workday ---
 
+def wd_headers(host, site):
+    return {"Origin": f"https://{host}", "Referer": f"https://{host}/en-US/{site}"}
+
+
 def workday_ireland_facet(host, tenant, site):
     """Resolve this tenant's Ireland locationCountry facet id dynamically."""
     resp = http_json(f"https://{host}/wday/cxs/{tenant}/{site}/jobs",
-                     body={"appliedFacets": {}, "limit": 1, "offset": 0})
+                     body={"appliedFacets": {}, "limit": 1, "offset": 0},
+                     headers=wd_headers(host, site))
     for facet in resp.get("facets", []):
         if facet.get("facetParameter") == "locationCountry":
             for v in facet.get("values", []):
@@ -53,7 +59,7 @@ def workday_list(host, tenant, site, body_extra):
     while True:
         body = {"appliedFacets": {}, "limit": PAGE, "offset": offset}
         body.update(body_extra)
-        resp = http_json(url, body=body)
+        resp = http_json(url, body=body, headers=wd_headers(host, site))
         if "total" not in resp or "jobPostings" not in resp:
             raise RuntimeError(f"malformed page at offset {offset} for {tenant}/{site}")
         total = resp["total"]
@@ -61,7 +67,8 @@ def workday_list(host, tenant, site, body_extra):
             expected = total
         elif total == 0 and out:
             # soft throttle lying that the board is empty (DEV-02): retry once
-            resp = http_json(url, body=body, retries=4, backoff=5.0)
+            resp = http_json(url, body=body, retries=4, backoff=5.0,
+                             headers=wd_headers(host, site))
             total = resp.get("total", 0)
             if total == 0:
                 break
@@ -73,11 +80,11 @@ def workday_list(host, tenant, site, body_extra):
 
 
 def workday_detail(host, tenant, site, external_path):
-    resp = http_json(f"https://{host}/wday/cxs/{tenant}/{site}{external_path}")
+    url = f"https://{host}/wday/cxs/{tenant}/{site}{external_path}"
+    resp = http_json(url, headers=wd_headers(host, site))
     info = resp.get("jobPostingInfo")
     if not info:  # 200 with an empty detail body (DEV-03): one long retry
-        resp = http_json(f"https://{host}/wday/cxs/{tenant}/{site}{external_path}",
-                         retries=4, backoff=5.0)
+        resp = http_json(url, retries=4, backoff=5.0, headers=wd_headers(host, site))
         info = resp.get("jobPostingInfo") or {}
     return info
 
@@ -199,7 +206,15 @@ SCRAPERS = {
 
 # ------------------------------------------------------------------- merge ---
 
-def merge(harvest):
+def merge(harvest, scraped_ok):
+    """Merge today's harvest with yesterday's data.
+
+    A role is expired ONLY when its company was successfully scraped this run
+    and the role is gone from that company's board. Roles from companies that
+    failed or were skipped this run are carried forward untouched — a
+    rate-limited morning must shrink coverage visibly (errors[]), never
+    silently expire half the board.
+    """
     prev = {}
     if OUT_PATH.exists():
         try:
@@ -221,10 +236,10 @@ def merge(harvest):
     for jid, old in prev.items():
         if jid in now:
             continue
-        if old.get("active"):
+        if old.get("active") and old.get("co") in scraped_ok:
             old["active"] = False
             old["expired_on"] = TODAY
-        merged.append(old)   # expire, don't delete
+        merged.append(old)   # expire, don't delete — and only what we saw
 
     merged.sort(key=lambda j: (not j.get("active"), j.get("d") or "", j["co"]),
                 reverse=False)
@@ -235,23 +250,26 @@ def merge(harvest):
 
 def main():
     reg = json.loads(REG_PATH.read_text())
-    harvest, errors = [], []
+    harvest, errors, scraped_ok = [], [], set()
     for portal, scraper in SCRAPERS.items():
         for entry in reg.get(portal, []):
             if not entry.get("board"):
+                errors.append(f"{entry['name']}: no validated board - skipped")
                 continue
             try:
                 jobs = scraper(entry)
                 harvest.extend(jobs)
+                scraped_ok.add(entry["name"])
                 print(f"{entry['name']}: {len(jobs)} Ireland roles")
             except Exception as e:
                 errors.append(f"{entry['name']}: {e}")
                 print(f"ERROR {entry['name']}: {e}", file=sys.stderr)
+            time.sleep(2)  # politeness gap between boards - don't trip rate limiters
 
-    if not harvest and errors:
+    if not scraped_ok:
         sys.exit("every source failed - keeping yesterday's data, not writing zeros")
 
-    merged = merge(harvest)
+    merged = merge(harvest, scraped_ok)
     active = [j for j in merged if j.get("active")]
     OUT_PATH.parent.mkdir(parents=True, exist_ok=True)
     OUT_PATH.write_text(json.dumps({
