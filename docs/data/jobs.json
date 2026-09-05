@@ -1,0 +1,404 @@
+{
+ "generated": "2026-09-05T06:08:19+00:00",
+ "active_roles": 23,
+ "companies": 1,
+ "errors": [],
+ "jobs": [
+  {
+   "co": "AbbVie",
+   "t": "Technical Analytical Specialist",
+   "loc": "Sligo",
+   "cty": "Sligo",
+   "d": "2026-09-04",
+   "u": "https://jobs.smartrecruiters.com/AbbVie/3743990015074106",
+   "c": [
+    "capa"
+   ],
+   "fit": false,
+   "s": "Pharma & Biologics",
+   "id": "smartrecruiters|AbbVie|3743990015074106",
+   "first_seen": "2026-09-05",
+   "last_seen": "2026-09-05",
+   "active": true
+  },
+  {
+   "co": "AbbVie",
+   "t": "Contamination Control Supervisor",
+   "loc": "Westport",
+   "cty": "Mayo",
+   "d": "2026-09-04",
+   "u": "https://jobs.smartrecruiters.com/AbbVie/3743990015071556",
+   "c": [
+    "aseptic"
+   ],
+   "fit": false,
+   "s": "Pharma & Biologics",
+   "id": "smartrecruiters|AbbVie|3743990015071556",
+   "first_seen": "2026-09-05",
+   "last_seen": "2026-09-05",
+   "active": true
+  },
+  {
+   "co": "AbbVie",
+   "t": "Senior Manager, Operations (Biologics)",
+   "loc": "Westport",
+   "cty": "Mayo",
+   "d": "2026-09-04",
+   "u": "https://jobs.smartrecruiters.com/AbbVie/3743990015071346",
+   "c": [
+    "dsdp"
+   ],
+   "fit": false,
+   "s": "Pharma & Biologics",
+   "id": "smartrecruiters|AbbVie|3743990015071346",
+   "first_seen": "2026-09-05",
+   "last_seen": "2026-09-05",
+   "active": true
+  },
+  {
+   "co": "AbbVie",
+   "t": "Senior Manager Aseptic Product Quality ",
+   "loc": "Dublin",
+   "cty": "Dublin",
+   "d": "2026-09-02",
+   "u": "https://jobs.smartrecruiters.com/AbbVie/3743990015011346",
+   "c": [
+    "aseptic",
+    "qa"
+   ],
+   "fit": false,
+   "s": "Pharma & Biologics",
+   "id": "smartrecruiters|AbbVie|3743990015011346",
+   "first_seen": "2026-09-05",
+   "last_seen": "2026-09-05",
+   "active": true
+  },
+  {
+   "co": "AbbVie",
+   "t": "Biologics Technician",
+   "loc": "Sligo",
+   "cty": "Sligo",
+   "d": "2026-09-02",
+   "u": "https://jobs.smartrecruiters.com/AbbVie/3743990015009326",
+   "c": [
+    "dsdp"
+   ],
+   "fit": false,
+   "s": "Pharma & Biologics",
+   "id": "smartrecruiters|AbbVie|3743990015009326",
+   "first_seen": "2026-09-05",
+   "last_seen": "2026-09-05",
+   "active": true
+  },
+  {
+   "co": "AbbVie",
+   "t": "Engineering Manager (API)",
+   "loc": "Sligo",
+   "cty": "Sligo",
+   "d": "2026-09-01",
+   "u": "https://jobs.smartrecruiters.com/AbbVie/3743990014966976",
+   "c": [
+    "dsdp"
+   ],
+   "fit": false,
+   "s": "Pharma & Biologics",
+   "id": "smartrecruiters|AbbVie|3743990014966976",
+   "first_seen": "2026-09-05",
+   "last_seen": "2026-09-05",
+   "active": true
+  },
+  {
+   "co": "AbbVie",
+   "t": "QC Lab Supervisor - Days",
+   "loc": "Sligo",
+   "cty": "Sligo",
+   "d": "2026-08-31",
+   "u": "https://jobs.smartrecruiters.com/AbbVie/3743990014945266",
+   "c": [
+    "qa"
+   ],
+   "fit": false,
+   "s": "Pharma & Biologics",
+   "id": "smartrecruiters|AbbVie|3743990014945266",
+   "first_seen": "2026-09-05",
+   "last_seen": "2026-09-05",
+   "active": true
+  },
+  {
+   "co": "AbbVie",
+   "t": "Aseptic MQA",
+   "loc": "Westport",
+   "cty": "Mayo",
+   "d": "2026-08-27",
+   "u": "https://jobs.smartrecruiters.com/AbbVie/3743990014893616",
+   "c": [
+    "aseptic"
+   ],
+   "fit": true,
+   "s": "Pharma & Biologics",
+   "id": "smartrecruiters|AbbVie|3743990014893616",
+   "first_seen": "2026-09-05",
+   "last_seen": "2026-09-05",
+   "active": true
+  },
+  {
+   "co": "AbbVie",
+   "t": "Senior Technical Analytical Specialist",
+   "loc": "Sligo",
+   "cty": "Sligo",
+   "d": "2026-08-26",
+   "u": "https://jobs.smartrecruiters.com/AbbVie/3743990014862686",
+   "c": [
+    "capa"
+   ],
+   "fit": false,
+   "s": "Pharma & Biologics",
+   "id": "smartrecruiters|AbbVie|3743990014862686",
+   "first_seen": "2026-09-05",
+   "last_seen": "2026-09-05",
+   "active": true
+  },
+  {
+   "co": "AbbVie",
+   "t": "Technical Manager (Biologics)",
+   "loc": "Sligo",
+   "cty": "Sligo",
+   "d": "2026-08-20",
+   "u": "https://jobs.smartrecruiters.com/AbbVie/3743990014694422",
+   "c": [
+    "dsdp"
+   ],
+   "fit": false,
+   "s": "Pharma & Biologics",
+   "id": "smartrecruiters|AbbVie|3743990014694422",
+   "first_seen": "2026-09-05",
+   "last_seen": "2026-09-05",
+   "active": true
+  },
+  {
+   "co": "AbbVie",
+   "t": "Sterility Assurance Lead - Biologics",
+   "loc": "Cork",
+   "cty": "Cork",
+   "d": "2026-08-19",
+   "u": "https://jobs.smartrecruiters.com/AbbVie/3743990014672326",
+   "c": [
+    "aseptic",
+    "dsdp",
+    "qa"
+   ],
+   "fit": true,
+   "s": "Pharma & Biologics",
+   "id": "smartrecruiters|AbbVie|3743990014672326",
+   "first_seen": "2026-09-05",
+   "last_seen": "2026-09-05",
+   "active": true
+  },
+  {
+   "co": "AbbVie",
+   "t": "Process Scientist",
+   "loc": "Westport",
+   "cty": "Mayo",
+   "d": "2026-08-14",
+   "u": "https://jobs.smartrecruiters.com/AbbVie/3743990014598106",
+   "c": [
+    "capa"
+   ],
+   "fit": false,
+   "s": "Pharma & Biologics",
+   "id": "smartrecruiters|AbbVie|3743990014598106",
+   "first_seen": "2026-09-05",
+   "last_seen": "2026-09-05",
+   "active": true
+  },
+  {
+   "co": "AbbVie",
+   "t": "Manufacturing Process Specialist",
+   "loc": "Sligo",
+   "cty": "Sligo",
+   "d": "2026-08-07",
+   "u": "https://jobs.smartrecruiters.com/AbbVie/3743990014488556",
+   "c": [
+    "capa",
+    "dsdp"
+   ],
+   "fit": false,
+   "s": "Pharma & Biologics",
+   "id": "smartrecruiters|AbbVie|3743990014488556",
+   "first_seen": "2026-09-05",
+   "last_seen": "2026-09-05",
+   "active": true
+  },
+  {
+   "co": "AbbVie",
+   "t": "Supervisor, Laboratory Quality Control",
+   "loc": "Westport",
+   "cty": "Mayo",
+   "d": "2026-07-31",
+   "u": "https://jobs.smartrecruiters.com/AbbVie/3743990014381626",
+   "c": [
+    "qa"
+   ],
+   "fit": false,
+   "s": "Pharma & Biologics",
+   "id": "smartrecruiters|AbbVie|3743990014381626",
+   "first_seen": "2026-09-05",
+   "last_seen": "2026-09-05",
+   "active": true
+  },
+  {
+   "co": "AbbVie",
+   "t": "Process Equipment Engineer",
+   "loc": "Sligo",
+   "cty": "Sligo",
+   "d": "2026-07-30",
+   "u": "https://jobs.smartrecruiters.com/AbbVie/3743990014365016",
+   "c": [
+    "dsdp"
+   ],
+   "fit": false,
+   "s": "Pharma & Biologics",
+   "id": "smartrecruiters|AbbVie|3743990014365016",
+   "first_seen": "2026-09-05",
+   "last_seen": "2026-09-05",
+   "active": true
+  },
+  {
+   "co": "AbbVie",
+   "t": "Quality Control Laboratory Supervisor",
+   "loc": "Dublin",
+   "cty": "Dublin",
+   "d": "2026-07-28",
+   "u": "https://jobs.smartrecruiters.com/AbbVie/3743990014310136",
+   "c": [
+    "qa"
+   ],
+   "fit": false,
+   "s": "Pharma & Biologics",
+   "id": "smartrecruiters|AbbVie|3743990014310136",
+   "first_seen": "2026-09-05",
+   "last_seen": "2026-09-05",
+   "active": true
+  },
+  {
+   "co": "AbbVie",
+   "t": "QA Operations Manager",
+   "loc": "Sligo",
+   "cty": "Sligo",
+   "d": "2026-07-03",
+   "u": "https://jobs.smartrecruiters.com/AbbVie/3743990013928286",
+   "c": [
+    "qa"
+   ],
+   "fit": false,
+   "s": "Pharma & Biologics",
+   "id": "smartrecruiters|AbbVie|3743990013928286",
+   "first_seen": "2026-09-05",
+   "last_seen": "2026-09-05",
+   "active": true
+  },
+  {
+   "co": "AbbVie",
+   "t": "Technical Operations API Lead",
+   "loc": "Sligo",
+   "cty": "Sligo",
+   "d": "2026-06-30",
+   "u": "https://jobs.smartrecruiters.com/AbbVie/3743990013856206",
+   "c": [
+    "capa",
+    "dsdp"
+   ],
+   "fit": false,
+   "s": "Pharma & Biologics",
+   "id": "smartrecruiters|AbbVie|3743990013856206",
+   "first_seen": "2026-09-05",
+   "last_seen": "2026-09-05",
+   "active": true
+  },
+  {
+   "co": "AbbVie",
+   "t": "Manufacturing Technician AOIML 2nd Shift",
+   "loc": "Westport",
+   "cty": "Mayo",
+   "d": "2026-06-25",
+   "u": "https://jobs.smartrecruiters.com/AbbVie/3743990013787893",
+   "c": [
+    "dsdp"
+   ],
+   "fit": false,
+   "s": "Pharma & Biologics",
+   "id": "smartrecruiters|AbbVie|3743990013787893",
+   "first_seen": "2026-09-05",
+   "last_seen": "2026-09-05",
+   "active": true
+  },
+  {
+   "co": "AbbVie",
+   "t": "Associate Director Technical Operations",
+   "loc": "Westport",
+   "cty": "Mayo",
+   "d": "2026-06-17",
+   "u": "https://jobs.smartrecruiters.com/AbbVie/3743990013659886",
+   "c": [
+    "capa"
+   ],
+   "fit": false,
+   "s": "Pharma & Biologics",
+   "id": "smartrecruiters|AbbVie|3743990013659886",
+   "first_seen": "2026-09-05",
+   "last_seen": "2026-09-05",
+   "active": true
+  },
+  {
+   "co": "AbbVie",
+   "t": "Drug Product Technical Manager",
+   "loc": "Sligo",
+   "cty": "Sligo",
+   "d": "2026-06-15",
+   "u": "https://jobs.smartrecruiters.com/AbbVie/3743990013615156",
+   "c": [
+    "dsdp"
+   ],
+   "fit": false,
+   "s": "Pharma & Biologics",
+   "id": "smartrecruiters|AbbVie|3743990013615156",
+   "first_seen": "2026-09-05",
+   "last_seen": "2026-09-05",
+   "active": true
+  },
+  {
+   "co": "AbbVie",
+   "t": "Senior Product QA Manager",
+   "loc": "Sligo",
+   "cty": "Sligo",
+   "d": "2026-04-03",
+   "u": "https://jobs.smartrecruiters.com/AbbVie/3743990012445227",
+   "c": [
+    "qa"
+   ],
+   "fit": false,
+   "s": "Pharma & Biologics",
+   "id": "smartrecruiters|AbbVie|3743990012445227",
+   "first_seen": "2026-09-05",
+   "last_seen": "2026-09-05",
+   "active": true
+  },
+  {
+   "co": "AbbVie",
+   "t": "Manager, Quality Control",
+   "loc": "Sligo",
+   "cty": "Sligo",
+   "d": "2025-07-14",
+   "u": "https://jobs.smartrecruiters.com/AbbVie/3743990008642781",
+   "c": [
+    "qa"
+   ],
+   "fit": false,
+   "s": "Pharma & Biologics",
+   "id": "smartrecruiters|AbbVie|3743990008642781",
+   "first_seen": "2026-09-05",
+   "last_seen": "2026-09-05",
+   "active": true
+  }
+ ]
+}
