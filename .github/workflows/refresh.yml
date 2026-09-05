@@ -1,0 +1,59 @@
+name: Daily refresh
+
+on:
+  schedule:
+    - cron: "45 5 * * *"   # 05:45 UTC daily (06:45 Irish time)
+  workflow_dispatch: {}     # lets you run it manually from the Actions tab
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Validate ATS boards
+        working-directory: scraper
+        run: python validate.py
+
+      - name: Scrape, filter, tag, merge
+        working-directory: scraper
+        run: python scrape.py
+
+      - name: Commit refreshed data
+        run: |
+          git config user.name "gmp-board-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add docs/data/jobs.json scraper/companies.json
+          if git diff --cached --quiet; then
+            echo "No changes today."
+          else
+            git commit -m "Daily refresh: $(date -u +%Y-%m-%d)"
+            git push
+          fi
+
+      - name: Job summary
+        if: always()
+        run: |
+          if [ -f docs/data/jobs.json ]; then
+            python - <<'EOF' >> "$GITHUB_STEP_SUMMARY"
+          import json
+          d = json.load(open("docs/data/jobs.json"))
+          print(f"**{d['active_roles']} active Ireland roles** at {d['companies']} companies")
+          if d.get("errors"):
+              print("\nSources with errors:")
+              for e in d["errors"]:
+                  print(f"- {e}")
+          EOF
+          fi
