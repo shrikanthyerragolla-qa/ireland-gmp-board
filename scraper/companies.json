@@ -1,331 +1,36 @@
 {
   "workday": [
-    {
-      "name": "Pfizer",
-      "tenant": "pfizer",
-      "host": "pfizer.wd1.myworkdayjobs.com",
-      "candidates": [
-        "PfizerCareers"
-      ],
-      "board": null
-    },
-    {
-      "name": "Regeneron",
-      "tenant": "regeneron",
-      "host": "regeneron.wd1.myworkdayjobs.com",
-      "candidates": [
-        "Regeneron"
-      ],
-      "board": null
-    },
-    {
-      "name": "MSD",
-      "tenant": "msd",
-      "host": "msd.wd5.myworkdayjobs.com",
-      "candidates": [
-        "SearchJobs"
-      ],
-      "board": null
-    },
-    {
-      "name": "AstraZeneca",
-      "tenant": "astrazeneca",
-      "host": "astrazeneca.wd3.myworkdayjobs.com",
-      "candidates": [
-        "Careers"
-      ],
-      "board": null
-    },
-    {
-      "name": "Alexion (AstraZeneca Rare Disease)",
-      "tenant": "alexion",
-      "host": "alexion.wd1.myworkdayjobs.com",
-      "candidates": [
-        "Careers",
-        "Alexion"
-      ],
-      "board": null
-    },
-    {
-      "name": "Eli Lilly",
-      "tenant": "lilly",
-      "host": "lilly.wd5.myworkdayjobs.com",
-      "candidates": [
-        "LLY"
-      ],
-      "board": null
-    },
-    {
-      "name": "Bristol Myers Squibb",
-      "tenant": "bms",
-      "host": "bms.wd5.myworkdayjobs.com",
-      "candidates": [
-        "BMS"
-      ],
-      "board": null
-    },
-    {
-      "name": "Amgen",
-      "tenant": "amgen",
-      "host": "amgen.wd1.myworkdayjobs.com",
-      "candidates": [
-        "Careers"
-      ],
-      "board": null
-    },
-    {
-      "name": "Takeda",
-      "tenant": "takeda",
-      "host": "takeda.wd3.myworkdayjobs.com",
-      "candidates": [
-        "External"
-      ],
-      "board": null
-    },
-    {
-      "name": "GSK",
-      "tenant": "gsk",
-      "host": "gsk.wd5.myworkdayjobs.com",
-      "candidates": [
-        "GSKCareers"
-      ],
-      "board": null
-    },
-    {
-      "name": "Sanofi",
-      "tenant": "sanofi",
-      "host": "sanofi.wd3.myworkdayjobs.com",
-      "candidates": [
-        "SanofiCareers"
-      ],
-      "board": null
-    },
-    {
-      "name": "Novartis",
-      "tenant": "novartis",
-      "host": "novartis.wd3.myworkdayjobs.com",
-      "candidates": [
-        "Novartis_Careers",
-        "NovartisCareers"
-      ],
-      "board": null
-    },
-    {
-      "name": "Thermo Fisher Scientific",
-      "tenant": "thermofisher",
-      "host": "thermofisher.wd1.myworkdayjobs.com",
-      "candidates": [
-        "jobs",
-        "ThermoFisherCareers"
-      ],
-      "board": null
-    },
-    {
-      "name": "Johnson & Johnson",
-      "tenant": "jj",
-      "host": "jj.wd5.myworkdayjobs.com",
-      "candidates": [
-        "Careers",
-        "JJCareers"
-      ],
-      "board": null
-    },
-    {
-      "name": "GE HealthCare",
-      "tenant": "gehealthcare",
-      "host": "gehealthcare.wd5.myworkdayjobs.com",
-      "candidates": [
-        "GEHC_ExternalSite",
-        "GE_HealthCare",
-        "Careers"
-      ],
-      "board": null
-    },
-    {
-      "name": "Viatris",
-      "tenant": "viatris",
-      "host": "viatris.wd1.myworkdayjobs.com",
-      "candidates": [
-        "Viatris"
-      ],
-      "board": null
-    },
-    {
-      "name": "Gilead Sciences",
-      "tenant": "gilead",
-      "host": "gilead.wd1.myworkdayjobs.com",
-      "candidates": [
-        "gileadcareers",
-        "Careers"
-      ],
-      "board": null
-    },
-    {
-      "name": "Jazz Pharmaceuticals",
-      "tenant": "jazzpharma",
-      "host": "jazzpharma.wd5.myworkdayjobs.com",
-      "candidates": [
-        "JazzPharma",
-        "Careers"
-      ],
-      "board": null
-    },
-    {
-      "name": "Baxter",
-      "tenant": "baxter",
-      "host": "baxter.wd1.myworkdayjobs.com",
-      "candidates": [
-        "Baxter_JOBS",
-        "BaxterCareers",
-        "Careers"
-      ],
-      "board": null
-    },
-    {
-      "name": "Haleon",
-      "tenant": "haleon",
-      "host": "haleon.wd3.myworkdayjobs.com",
-      "candidates": [
-        "Haleon",
-        "HaleonCareers"
-      ],
-      "board": null
-    },
-    {
-      "name": "Ipsen",
-      "tenant": "ipsen",
-      "host": "ipsen.wd3.myworkdayjobs.com",
-      "candidates": [
-        "ipsencareers",
-        "Ipsen"
-      ],
-      "board": null
-    },
-    {
-      "name": "PCI Pharma Services",
-      "tenant": "pci",
-      "host": "pci.wd5.myworkdayjobs.com",
-      "candidates": [
-        "PCI",
-        "PCICareers",
-        "Careers"
-      ],
-      "board": null
-    },
-    {
-      "name": "Grifols",
-      "tenant": "grifols",
-      "host": "grifols.wd3.myworkdayjobs.com",
-      "candidates": [
-        "Grifols",
-        "Careers"
-      ],
-      "board": null
-    },
-    {
-      "name": "Alkermes",
-      "tenant": "alkermes",
-      "host": "alkermes.wd1.myworkdayjobs.com",
-      "candidates": [
-        "AlkermesCareers",
-        "External",
-        "Careers"
-      ],
-      "board": null
-    },
-    {
-      "name": "BioMarin",
-      "tenant": "biomarin",
-      "host": "biomarin.wd1.myworkdayjobs.com",
-      "candidates": [
-        "Careers",
-        "BioMarinCareers"
-      ],
-      "board": null
-    },
-    {
-      "name": "West Pharmaceutical Services",
-      "tenant": "westpharma",
-      "host": "westpharma.wd1.myworkdayjobs.com",
-      "candidates": [
-        "Careers",
-        "WestCareers"
-      ],
-      "board": null
-    },
-    {
-      "name": "Astellas",
-      "tenant": "astellas",
-      "host": "astellas.wd1.myworkdayjobs.com",
-      "candidates": [
-        "External",
-        "AstellasCareers",
-        "Careers"
-      ],
-      "board": null
-    },
-    {
-      "name": "Vantive",
-      "tenant": "vantive",
-      "host": "vantive.wd1.myworkdayjobs.com",
-      "candidates": [
-        "Vantive",
-        "Careers"
-      ],
-      "board": null
-    },
-    {
-      "name": "WuXi Biologics",
-      "tenant": "wuxibiologics",
-      "host": "wuxibiologics.wd3.myworkdayjobs.com",
-      "candidates": [
-        "WuXiBiologicsCareers",
-        "Careers",
-        "External"
-      ],
-      "board": null
-    }
+    {"name": "Pfizer", "tenant": "pfizer", "host": "pfizer.wd1.myworkdayjobs.com", "candidates": ["PfizerCareers"], "board": "PfizerCareers"},
+    {"name": "Regeneron", "tenant": "regeneron", "host": "regeneron.wd1.myworkdayjobs.com", "candidates": ["Careers"], "board": "Careers"},
+    {"name": "MSD", "tenant": "msd", "host": "msd.wd5.myworkdayjobs.com", "candidates": ["SearchJobs"], "board": "SearchJobs"},
+    {"name": "AstraZeneca", "tenant": "astrazeneca", "host": "astrazeneca.wd3.myworkdayjobs.com", "candidates": ["Careers"], "board": "Careers"},
+    {"name": "Alexion Pharmaceuticals", "tenant": "astrazeneca", "host": "astrazeneca.wd3.myworkdayjobs.com", "candidates": ["Alexion"], "board": "Alexion"},
+    {"name": "Eli Lilly", "tenant": "lilly", "host": "lilly.wd5.myworkdayjobs.com", "candidates": ["LLY"], "board": "LLY"},
+    {"name": "Bristol Myers Squibb", "tenant": "bristolmyerssquibb", "host": "bristolmyerssquibb.wd5.myworkdayjobs.com", "candidates": ["BMS"], "board": "BMS"},
+    {"name": "Amgen", "tenant": "amgen", "host": "amgen.wd1.myworkdayjobs.com", "candidates": ["Careers"], "board": "Careers"},
+    {"name": "Takeda", "tenant": "takeda", "host": "takeda.wd3.myworkdayjobs.com", "candidates": ["External"], "board": "External"},
+    {"name": "GSK", "tenant": "gsk", "host": "gsk.wd5.myworkdayjobs.com", "candidates": ["GSKCareers"], "board": "GSKCareers"},
+    {"name": "Sanofi", "tenant": "sanofi", "host": "sanofi.wd3.myworkdayjobs.com", "candidates": ["SanofiCareers"], "board": "SanofiCareers"},
+    {"name": "Novartis", "tenant": "novartis", "host": "novartis.wd3.myworkdayjobs.com", "candidates": ["Novartis_Careers"], "board": "Novartis_Careers"},
+    {"name": "Thermo Fisher Scientific", "tenant": "thermofisher", "host": "thermofisher.wd5.myworkdayjobs.com", "candidates": ["ThermoFisherCareers"], "board": "ThermoFisherCareers"},
+    {"name": "Johnson & Johnson", "tenant": "jj", "host": "jj.wd5.myworkdayjobs.com", "candidates": ["JJ"], "board": "JJ"},
+    {"name": "GE HealthCare", "tenant": "gehc", "host": "gehc.wd5.myworkdayjobs.com", "candidates": ["GEHC_ExternalSite"], "board": "GEHC_ExternalSite"},
+    {"name": "Viatris", "tenant": "viatris", "host": "viatris.wd5.myworkdayjobs.com", "candidates": ["External"], "board": "External"},
+    {"name": "Gilead Sciences", "tenant": "gilead", "host": "gilead.wd1.myworkdayjobs.com", "candidates": ["gileadcareers"], "board": "gileadcareers"},
+    {"name": "Jazz Pharmaceuticals", "tenant": "vhr-jazz", "host": "vhr-jazz.wd1.myworkdayjobs.com", "candidates": ["JazzPharmaceuticals"], "board": "JazzPharmaceuticals"},
+    {"name": "Baxter", "tenant": "baxter", "host": "baxter.wd1.myworkdayjobs.com", "candidates": ["baxter"], "board": "baxter"},
+    {"name": "Haleon", "tenant": "gsknch", "host": "gsknch.wd3.myworkdayjobs.com", "candidates": ["GSKCareers"], "board": "GSKCareers"},
+    {"name": "Ipsen", "tenant": "ipsen", "host": "ipsen.wd103.myworkdayjobs.com", "candidates": ["Ipsen_Careers"], "board": "Ipsen_Careers"},
+    {"name": "PCI Pharma Services", "tenant": "pciservices", "host": "pciservices.wd1.myworkdayjobs.com", "candidates": ["External"], "board": "External"},
+    {"name": "Vantive", "tenant": "vantive", "host": "vantive.wd108.myworkdayjobs.com", "candidates": ["Vantive"], "board": "Vantive"}
   ],
   "smartrecruiters": [
-    {
-      "name": "AbbVie",
-      "company_id": "AbbVie",
-      "board": "AbbVie"
-    },
-    {
-      "name": "Servier",
-      "company_id": "Servier",
-      "candidates": [
-        "Servier",
-        "ServierGroup"
-      ],
-      "board": "Servier"
-    },
-    {
-      "name": "LEO Pharma",
-      "company_id": "LEOPharma",
-      "candidates": [
-        "LEOPharma",
-        "LeoPharma"
-      ],
-      "board": "LEOPharma"
-    }
+    {"name": "AbbVie", "company_id": "AbbVie", "candidates": ["AbbVie"], "board": "AbbVie"},
+    {"name": "Servier", "company_id": "Servier", "candidates": ["Servier"], "board": "Servier"},
+    {"name": "LEO Pharma", "company_id": "LEOPharma", "candidates": ["LEOPharma"], "board": "LEOPharma"}
   ],
   "greenhouse": [
-    {
-      "name": "Hovione",
-      "candidates": [
-        "hovione"
-      ],
-      "board": null
-    },
-    {
-      "name": "APC Ltd",
-      "candidates": [
-        "apc",
-        "apcltd"
-      ],
-      "board": null
-    }
+    {"name": "Hovione", "candidates": ["hovione"], "board": null},
+    {"name": "APC Ltd", "candidates": ["apc", "apcltd"], "board": null}
   ]
 }
