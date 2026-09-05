@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ireland GMP Board</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Public+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+:root{
+  --bg:#f4f7f6; --surface:#ffffff; --ink:#1b2a26; --ink-soft:#54655f; --ink-faint:#8a988f;
+  --line:#dde5e1; --line-strong:#c3cfc9;
+  --accent:#0e6e5c; --accent-ink:#0a5648; --accent-soft:#e2efeb; --accent-line:#b7d6cd;
+  --fit-bg:#f4ecd7; --fit-ink:#7a5d14; --fit-line:#dcc98f;
+  --chip-bg:#eef2f0; --chip-ink:#3e4f49; --row-hover:#f0f5f3; --on-accent:#ffffff;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#111917; --surface:#18211e; --ink:#e2ebe7; --ink-soft:#9fb0a9; --ink-faint:#6d7d76;
+    --line:#26322d; --line-strong:#37453f;
+    --accent:#4cc3a5; --accent-ink:#6ed3b9; --accent-soft:#1a2f29; --accent-line:#2c4a41;
+    --fit-bg:#2b2517; --fit-ink:#d9b855; --fit-line:#4d4020;
+    --chip-bg:#212b27; --chip-ink:#aebbb5; --row-hover:#1c2724; --on-accent:#0c1512;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#111917; --surface:#18211e; --ink:#e2ebe7; --ink-soft:#9fb0a9; --ink-faint:#6d7d76;
+  --line:#26322d; --line-strong:#37453f;
+  --accent:#4cc3a5; --accent-ink:#6ed3b9; --accent-soft:#1a2f29; --accent-line:#2c4a41;
+  --fit-bg:#2b2517; --fit-ink:#d9b855; --fit-line:#4d4020;
+  --chip-bg:#212b27; --chip-ink:#aebbb5; --row-hover:#1c2724; --on-accent:#0c1512;
+}
+*{box-sizing:border-box}
+body{background:var(--bg); color:var(--ink); font:15px/1.55 "Public Sans",system-ui,sans-serif; margin:0; padding:0 20px 64px;}
+img{max-width:100%}
+.wrap{max-width:1060px; margin:0 auto;}
+header{padding:44px 0 24px;}
+.eyebrow{font:500 11px/1 "IBM Plex Mono",monospace; letter-spacing:.14em; text-transform:uppercase; color:var(--accent); margin:0 0 14px;}
+h1{font:600 42px/1.05 "Fraunces",Georgia,serif; margin:0 0 12px; text-wrap:balance; letter-spacing:-.01em;}
+.sub{max-width:64ch; color:var(--ink-soft); margin:0 0 18px;}
+.meta-line{display:flex; flex-wrap:wrap; gap:8px 18px; align-items:center; font:400 12.5px/1.4 "IBM Plex Mono",monospace; color:var(--ink-faint);}
+.meta-line .dot{width:7px;height:7px;border-radius:50%;background:var(--accent);display:inline-block;margin-right:7px;}
+.stats{display:grid; grid-template-columns:repeat(4,1fr); border:1px solid var(--line-strong); border-radius:8px; overflow:hidden; margin:26px 0 0; background:var(--surface);}
+.stat{padding:16px 20px 14px; border-left:1px solid var(--line);}
+.stat:first-child{border-left:none;}
+.stat b{display:block; font:600 30px/1 "Fraunces",Georgia,serif; font-variant-numeric:tabular-nums; margin-bottom:5px;}
+.stat span{font-size:12.5px; color:var(--ink-soft);}
+.controls{position:sticky; top:0; z-index:5; background:var(--bg); padding:18px 0 14px; border-bottom:1px solid var(--line); margin-bottom:6px;}
+.cat-row{display:flex; flex-wrap:wrap; gap:8px; margin-bottom:12px;}
+.cat{border:1px solid var(--line-strong); background:var(--surface); color:var(--chip-ink); border-radius:999px; padding:7px 14px; font:500 13px/1 "Public Sans",sans-serif; cursor:pointer;}
+.cat .n{font:500 11.5px/1 "IBM Plex Mono",monospace; color:var(--ink-faint); margin-left:6px;}
+.cat.on{background:var(--accent); border-color:var(--accent); color:var(--on-accent);}
+.cat.on .n{color:inherit; opacity:.75;}
+.cat:focus-visible, .row a:focus-visible, select:focus-visible, input:focus-visible{outline:2px solid var(--accent); outline-offset:2px;}
+.sel-row{display:flex; flex-wrap:wrap; gap:10px; align-items:center;}
+select,input[type=search]{background:var(--surface); color:var(--ink); border:1px solid var(--line-strong); border-radius:6px; padding:8px 10px; font:400 13.5px "Public Sans",sans-serif;}
+input[type=search]{flex:1; min-width:180px;}
+label.tgl{display:flex; align-items:center; gap:7px; font-size:13px; color:var(--ink-soft); cursor:pointer; white-space:nowrap;}
+.count-note{font:400 12px "IBM Plex Mono",monospace; color:var(--ink-faint); margin-left:auto; white-space:nowrap;}
+.rows{margin-top:6px;}
+.row{display:grid; grid-template-columns:minmax(0,2.4fr) minmax(0,1.5fr) 96px; gap:4px 20px; padding:14px 12px; border-bottom:1px solid var(--line); align-items:start;}
+.row:hover{background:var(--row-hover);}
+.row .t a{color:var(--ink); font-weight:600; text-decoration:none; border-bottom:1px solid var(--accent-line);}
+.row .t a:hover{color:var(--accent-ink); border-bottom-color:var(--accent);}
+.badges{display:inline-flex; gap:6px; margin-left:8px; vertical-align:2px;}
+.b-fit{background:var(--fit-bg); color:var(--fit-ink); border:1px solid var(--fit-line); border-radius:4px; font:500 10.5px/1 "IBM Plex Mono",monospace; padding:3px 6px; letter-spacing:.05em;}
+.b-new{color:var(--accent-ink); font:500 10.5px/1 "IBM Plex Mono",monospace; border:1px solid var(--accent-line); background:var(--accent-soft); border-radius:4px; padding:3px 6px; letter-spacing:.05em;}
+.row .tags{margin-top:5px; display:flex; flex-wrap:wrap; gap:5px;}
+.tag{background:var(--chip-bg); color:var(--chip-ink); border-radius:4px; padding:2.5px 7px; font:400 11px/1.3 "IBM Plex Mono",monospace;}
+.row .co b{font-weight:600; display:block;}
+.row .co span{color:var(--ink-soft); font-size:13px;}
+.row .co .sector{display:block; font:400 10.5px/1.6 "IBM Plex Mono",monospace; color:var(--ink-faint); letter-spacing:.06em; text-transform:uppercase;}
+.row .d{font:400 12.5px/1.5 "IBM Plex Mono",monospace; color:var(--ink-soft); text-align:right; font-variant-numeric:tabular-nums;}
+.empty{padding:48px 12px; text-align:center; color:var(--ink-soft);}
+footer{margin-top:36px; padding-top:18px; border-top:1px solid var(--line); color:var(--ink-faint); font-size:12.5px; max-width:76ch;}
+footer p{margin:0 0 8px;}
+@media (max-width:720px){
+  .stats{grid-template-columns:repeat(2,1fr);}
+  .stat:nth-child(3){border-left:none;}
+  .stat{border-top:1px solid var(--line);}
+  .stat:nth-child(-n+2){border-top:none;}
+  .row{grid-template-columns:1fr; gap:6px;}
+  .row .d{text-align:left;}
+  h1{font-size:32px;}
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <p class="eyebrow">Live board · Scraped from employer ATS APIs daily</p>
+  <h1>Ireland GMP Board</h1>
+  <p class="sub">Open QA, manufacturing, aseptic, and validation roles across Ireland's pharma and GMP sites, pulled straight from each employer's own careers API — matched against Shrikanth Yerragolla's QA &amp; Compliance profile.</p>
+  <div class="meta-line">
+    <span><span class="dot"></span>Last refreshed <span id="stamp">…</span></span>
+    <span>Direct source: Workday · SmartRecruiters · Greenhouse</span>
+    <span>Ireland-only postings</span>
+  </div>
+  <div class="stats" id="stats"></div>
+</header>
+
+<div class="controls">
+  <div class="cat-row" id="catRow"></div>
+  <div class="sel-row">
+    <select id="coSel"><option value="">All companies</option></select>
+    <select id="ctySel"><option value="">All counties</option></select>
+    <input type="search" id="q" placeholder="Search title or company…" aria-label="Search roles">
+    <label class="tgl"><input type="checkbox" id="fitOnly">Strong CV fit only</label>
+    <span class="count-note" id="countNote"></span>
+  </div>
+</div>
+
+<div class="rows" id="rows"><div class="empty">Loading roles…</div></div>
+
+<footer>
+  <p>Multi-label tagging: a role can carry more than one category, and every role shown matches at least one. "Strong fit" marks roles closely aligned to the reference CV (QA &amp; Compliance Specialist — deviation investigation, CAPA, aseptic fill-finish, MSAT, validation). NEW marks postings from the last 7 days.</p>
+  <p>Refreshed every morning by a scheduled GitHub Action that calls each company's careers API directly, keeps only postings whose location resolves to Ireland, and expires (never deletes) roles that close. Every listing links to the employer's own application page.</p>
+</footer>
+</div>
+
+<script>
+const CATS = {
+  qa:"QA, Compliance & Investigation",
+  capa:"CAPA, RCA & MSAT",
+  aseptic:"Aseptic Fill-Finish",
+  dsdp:"Drug Substance & Drug Product",
+  val:"Validation"
+};
+const state = { cat:"", co:"", cty:"", q:"", fit:false };
+let jobs = [];
+
+function fmtDate(d){
+  if(!d) return "—";
+  return new Date(d+"T00:00:00").toLocaleDateString("en-IE",{day:"numeric",month:"short"});
+}
+
+function build(){
+  const stats = document.getElementById("stats");
+  const nCo = new Set(jobs.map(j=>j.co)).size;
+  const nFit = jobs.filter(j=>j.fit).length;
+  const nNew = jobs.filter(j=>j.isNew).length;
+  stats.innerHTML =
+    `<div class="stat"><b>${jobs.length}</b><span>active roles matching your categories</span></div>`+
+    `<div class="stat"><b>${nCo}</b><span>companies hiring in Ireland</span></div>`+
+    `<div class="stat"><b>${nFit}</b><span>strong CV-fit roles</span></div>`+
+    `<div class="stat"><b>${nNew}</b><span>posted in the last 7 days</span></div>`;
+
+  const catRow = document.getElementById("catRow");
+  const catCount = k => jobs.filter(j=>j.c.includes(k)).length;
+  catRow.innerHTML = `<button class="cat on" data-k="">All<span class="n">${jobs.length}</span></button>` +
+    Object.entries(CATS).map(([k,v]) => `<button class="cat" data-k="${k}">${v}<span class="n">${catCount(k)}</span></button>`).join("");
+  catRow.addEventListener("click", e => {
+    const b = e.target.closest(".cat"); if(!b) return;
+    state.cat = b.dataset.k;
+    catRow.querySelectorAll(".cat").forEach(x=>x.classList.toggle("on", x===b));
+    render();
+  });
+
+  const coSel = document.getElementById("coSel"), ctySel = document.getElementById("ctySel");
+  [...new Set(jobs.map(j=>j.co))].sort().forEach(c => coSel.insertAdjacentHTML("beforeend", `<option>${c}</option>`));
+  [...new Set(jobs.map(j=>j.cty))].sort().forEach(c => ctySel.insertAdjacentHTML("beforeend", `<option>${c}</option>`));
+  coSel.onchange = () => { state.co = coSel.value; render(); };
+  ctySel.onchange = () => { state.cty = ctySel.value; render(); };
+  document.getElementById("q").oninput = e => { state.q = e.target.value.toLowerCase(); render(); };
+  document.getElementById("fitOnly").onchange = e => { state.fit = e.target.checked; render(); };
+  render();
+}
+
+function render(){
+  const out = jobs.filter(j =>
+    (!state.cat || j.c.includes(state.cat)) &&
+    (!state.co || j.co===state.co) &&
+    (!state.cty || j.cty===state.cty) &&
+    (!state.fit || j.fit) &&
+    (!state.q || (j.t+" "+j.co+" "+j.loc).toLowerCase().includes(state.q))
+  );
+  document.getElementById("countNote").textContent = `${out.length} of ${jobs.length} roles`;
+  const rows = document.getElementById("rows");
+  if(!out.length){ rows.innerHTML = `<div class="empty">No roles match these filters — widen the category or clear the search.</div>`; return; }
+  rows.innerHTML = out.map(j => `
+    <div class="row">
+      <div class="t">
+        <a href="${j.u}" target="_blank" rel="noopener">${j.t}</a><span class="badges">${j.fit?'<span class="b-fit">STRONG FIT</span>':''}${j.isNew?'<span class="b-new">NEW</span>':''}</span>
+        <div class="tags">${j.c.map(k=>`<span class="tag">${CATS[k]}</span>`).join("")}</div>
+      </div>
+      <div class="co"><b>${j.co}</b><span>${j.loc} · Co. ${j.cty}</span><span class="sector">${j.s}</span></div>
+      <div class="d">${fmtDate(j.d)}</div>
+    </div>`).join("");
+}
+
+fetch("data/jobs.json").then(r => {
+  if(!r.ok) throw new Error(r.status);
+  return r.json();
+}).then(data => {
+  const gen = new Date(data.generated);
+  document.getElementById("stamp").textContent =
+    gen.toLocaleDateString("en-IE",{day:"numeric",month:"long",year:"numeric"});
+  const cutoff = new Date(gen); cutoff.setDate(cutoff.getDate()-7);
+  jobs = (data.jobs||[]).filter(j => j.active !== false);
+  jobs.forEach(j => { j.isNew = j.d ? (new Date(j.d) >= cutoff) : false; });
+  jobs.sort((a,b) => (b.d||"0000").localeCompare(a.d||"0000") || a.co.localeCompare(b.co));
+  build();
+}).catch(() => {
+  document.getElementById("stamp").textContent = "no data yet";
+  document.getElementById("rows").innerHTML =
+    `<div class="empty">No data yet — run the "Daily refresh" workflow once from the repo's Actions tab, then reload.</div>`;
+});
+</script>
+</body>
+</html>
