@@ -1,15 +1,63 @@
 {
- "generated": "2026-11-13T13:32:38+00:00",
- "active_roles": 241,
+ "generated": "2026-11-14T12:37:07+00:00",
+ "active_roles": 239,
  "companies": 17,
  "errors": [
+  "Pfizer: giving up on https://pfizer.wd1.myworkdayjobs.com/wday/cxs/pfizer/PfizerCareers/jobs: Expecting value: line 1 column 1 (char 0)",
+  "Regeneron: giving up on https://regeneron.wd1.myworkdayjobs.com/wday/cxs/regeneron/Careers/jobs: Expecting value: line 1 column 1 (char 0)",
+  "MSD: giving up on https://msd.wd5.myworkdayjobs.com/wday/cxs/msd/SearchJobs/jobs: Expecting value: line 1 column 1 (char 0)",
   "Eli Lilly: HTTP Error 422: Unprocessable Entity",
+  "Bristol Myers Squibb: giving up on https://bristolmyerssquibb.wd5.myworkdayjobs.com/wday/cxs/bristolmyerssquibb/BMS/jobs: Expecting value: line 1 column 1 (char 0)",
+  "Amgen: giving up on https://amgen.wd1.myworkdayjobs.com/wday/cxs/amgen/Careers/jobs: Expecting value: line 1 column 1 (char 0)",
   "Takeda: HTTP Error 422: Unprocessable Entity",
+  "GSK: giving up on https://gsk.wd5.myworkdayjobs.com/wday/cxs/gsk/GSKCareers/jobs: Expecting value: line 1 column 1 (char 0)",
+  "Novartis: HTTP Error 401: Unauthorized",
+  "Thermo Fisher Scientific: giving up on https://thermofisher.wd5.myworkdayjobs.com/wday/cxs/thermofisher/ThermoFisherCareers/jobs: Expecting value: line 1 column 1 (char 0)",
+  "Johnson & Johnson: giving up on https://jj.wd5.myworkdayjobs.com/wday/cxs/jj/JJ/jobs: Expecting value: line 1 column 1 (char 0)",
+  "GE HealthCare: giving up on https://gehc.wd5.myworkdayjobs.com/wday/cxs/gehc/GEHC_ExternalSite/jobs: Expecting value: line 1 column 1 (char 0)",
+  "Viatris: giving up on https://viatris.wd5.myworkdayjobs.com/wday/cxs/viatris/External/jobs: Expecting value: line 1 column 1 (char 0)",
+  "Gilead Sciences: giving up on https://gilead.wd1.myworkdayjobs.com/wday/cxs/gilead/gileadcareers/jobs: Expecting value: line 1 column 1 (char 0)",
   "Jazz Pharmaceuticals: HTTP Error 422: Unprocessable Entity",
+  "Baxter: giving up on https://baxter.wd1.myworkdayjobs.com/wday/cxs/baxter/baxter/jobs: Expecting value: line 1 column 1 (char 0)",
+  "PCI Pharma Services: giving up on https://pciservices.wd1.myworkdayjobs.com/wday/cxs/pciservices/External/jobs: Expecting value: line 1 column 1 (char 0)",
   "Hovione: no validated board - skipped",
   "APC Ltd: no validated board - skipped"
  ],
  "jobs": [
+  {
+   "co": "Alexion Pharmaceuticals",
+   "t": "Senior Director, Head of Product Quality",
+   "loc": "Ireland - Dublin College Park",
+   "cty": "Dublin",
+   "d": "2026-11-13",
+   "u": "https://astrazeneca.wd3.myworkdayjobs.com/en-US/Alexion/job/Ireland---Dublin-College-Park/Head-of-Product-Quality_R-263256",
+   "c": [
+    "qa"
+   ],
+   "fit": false,
+   "s": "Pharma & Biologics",
+   "id": "workday|astrazeneca|/job/Ireland---Dublin-College-Park/Head-of-Product-Quality_R-263256",
+   "first_seen": "2026-11-03",
+   "last_seen": "2026-11-14",
+   "active": true
+  },
+  {
+   "co": "Alexion Pharmaceuticals",
+   "t": "Head of Quality Operations Business Planning & Performance",
+   "loc": "Ireland - Dublin College Park",
+   "cty": "Dublin",
+   "d": "2026-11-13",
+   "u": "https://astrazeneca.wd3.myworkdayjobs.com/en-US/Alexion/job/Ireland---Dublin-College-Park/Quality-Operations-Head-of-Business-Planning-and-Performance_R-262247",
+   "c": [
+    "qa"
+   ],
+   "fit": false,
+   "s": "Pharma & Biologics",
+   "id": "workday|astrazeneca|/job/Ireland---Dublin-College-Park/Quality-Operations-Head-of-Business-Planning-and-Performance_R-262247",
+   "first_seen": "2026-10-21",
+   "last_seen": "2026-11-14",
+   "active": true
+  },
   {
    "co": "AstraZeneca",
    "t": "Director – Digital Dx & AI Lead",
@@ -25,7 +73,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|astrazeneca|/job/Ireland---Dublin-College-Park/Director---Digital-Dx---AI-Lead_R-264318",
    "first_seen": "2026-11-13",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -118,7 +166,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|astrazeneca|/job/Ireland---Dublin-College-Park/Senior-Maintenance-Engineer_R-259802",
    "first_seen": "2026-09-11",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -352,7 +400,7 @@
    "s": "Pharma & Biologics",
    "id": "smartrecruiters|AbbVie|3743990016791626",
    "first_seen": "2026-11-12",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -371,7 +419,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|astrazeneca|/job/Ireland---Dublin-College-Park/New-Product-Introduction-Manager_R-263973",
    "first_seen": "2026-11-11",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -391,7 +439,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|astrazeneca|/job/Ireland---Dublin-College-Park/Technical-Transfer-Lead_R-259299",
    "first_seen": "2026-09-06",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -580,7 +628,7 @@
    "s": "Pharma & Biologics",
    "id": "smartrecruiters|AbbVie|3743990016755086",
    "first_seen": "2026-11-11",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -600,7 +648,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|astrazeneca|/job/Ireland---Athlone/QA-Specialist_R-263955",
    "first_seen": "2026-11-11",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -618,7 +666,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|astrazeneca|/job/Ireland---Dublin-College-Park/Senior-Manager--GMR-Operations-CoE---Global-Medical-Information--Medical-Review-and-Content-Creation--GMIMRCC--Operations_R-262789",
    "first_seen": "2026-10-27",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -639,7 +687,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|astrazeneca|/job/Ireland---Dublin-College-Park/Head-of-Sterility-Assurance-and-Contamination-Control_R-263931",
    "first_seen": "2026-11-10",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -721,7 +769,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|astrazeneca|/job/Ireland---Dublin-College-Park/Senior-Scientist--Analytical-_R-263846-1",
    "first_seen": "2026-11-10",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -740,7 +788,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|astrazeneca|/job/Ireland---Dublin-College-Park/Advanced-Manufacturing-Technician--API--APICOM_R-260579",
    "first_seen": "2026-09-26",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -760,7 +808,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|astrazeneca|/job/Ireland---Dublin-College-Park/APICOM-Maintenance-Technician_R-263909",
    "first_seen": "2026-11-10",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -778,7 +826,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|astrazeneca|/job/Ireland---Dublin-College-Park/Senior-Scientist--Chemistry-_R-263848-1",
    "first_seen": "2026-11-10",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -979,7 +1027,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|sanofi|/job/Waterford/Quality-Graduate_R2877814",
    "first_seen": "2026-11-11",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -1113,7 +1161,7 @@
    "s": "Pharma & Biologics",
    "id": "smartrecruiters|AbbVie|3743990016728914",
    "first_seen": "2026-11-10",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -1174,7 +1222,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|astrazeneca|/job/Ireland---Dublin-College-Park/Maintenance-Technician_R-260135-2",
    "first_seen": "2026-11-10",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -1215,7 +1263,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|sanofi|/job/Waterford/Manufacturing-Operations-Manager_R2872381",
    "first_seen": "2026-11-09",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -1235,7 +1283,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|vantive|/job/Castlebar-Mayo/QA-Visual-Inspection-SME_JR-197973",
    "first_seen": "2026-09-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -1465,7 +1513,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|sanofi|/job/Waterford/Manufacturing-Science-and-Technology--MSAT--Graduate_R2877813",
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -1485,7 +1533,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|sanofi|/job/Waterford/Engineering-Graduate_R2877822",
    "first_seen": "2026-11-06",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -1503,7 +1551,7 @@
    "s": "Pharma & Biologics",
    "id": "smartrecruiters|AbbVie|3743990016651846",
    "first_seen": "2026-11-06",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -1522,7 +1570,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|astrazeneca|/job/Ireland---Dublin-College-Park/Senior-Specialist--QA-IT_R-263343",
    "first_seen": "2026-11-06",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -1540,7 +1588,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|astrazeneca|/job/Ireland---Dublin-College-Park/Senior-Manager-SAP-Master-Data--3-year-FTC-Based-Dublin-or-Cork_R-263601",
    "first_seen": "2026-11-05",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -1692,7 +1740,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|astrazeneca|/job/Ireland---Dublin-College-Park/SAP-Quality---Compliance-Lead_R-263484",
    "first_seen": "2026-11-05",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -1910,7 +1958,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|sanofi|/job/Waterford/Quality-Complaints-Specialist---Expert_R2876963",
    "first_seen": "2026-11-05",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -1952,26 +2000,6 @@
    "active": true
   },
   {
-   "co": "Sanofi",
-   "t": "Quality Control Support Manager",
-   "loc": "Waterford",
-   "cty": "Waterford",
-   "d": "2026-11-03",
-   "u": "https://sanofi.wd3.myworkdayjobs.com/en-US/SanofiCareers/job/Waterford/Quality-Control-Support-Manager_R2877214-1",
-   "c": [
-    "capa",
-    "dsdp",
-    "qa",
-    "val"
-   ],
-   "fit": false,
-   "s": "Pharma & Biologics",
-   "id": "workday|sanofi|/job/Waterford/Quality-Control-Support-Manager_R2877214-1",
-   "first_seen": "2026-11-03",
-   "last_seen": "2026-11-13",
-   "active": true
-  },
-  {
    "co": "Thermo Fisher Scientific",
    "t": "Scientist I Pharma",
    "loc": "Athlone, Ireland",
@@ -1986,23 +2014,6 @@
    "s": "Pharma & Biologics",
    "id": "workday|thermofisher|/job/Athlone-Ireland/Scientist-I-Pharma_R-01372492-1",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-13",
-   "active": true
-  },
-  {
-   "co": "Alexion Pharmaceuticals",
-   "t": "Head of Product Quality",
-   "loc": "Ireland - Dublin College Park",
-   "cty": "Dublin",
-   "d": "2026-11-02",
-   "u": "https://astrazeneca.wd3.myworkdayjobs.com/en-US/Alexion/job/Ireland---Dublin-College-Park/Head-of-Product-Quality_R-263256",
-   "c": [
-    "qa"
-   ],
-   "fit": false,
-   "s": "Pharma & Biologics",
-   "id": "workday|astrazeneca|/job/Ireland---Dublin-College-Park/Head-of-Product-Quality_R-263256",
-   "first_seen": "2026-11-03",
    "last_seen": "2026-11-13",
    "active": true
   },
@@ -2023,7 +2034,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|astrazeneca|/job/Ireland---Athlone/Manufacturing-Shift-Lead_R-263234-1",
    "first_seen": "2026-11-03",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -2176,7 +2187,7 @@
    "s": "Pharma & Biologics",
    "id": "smartrecruiters|AbbVie|3743990016524356",
    "first_seen": "2026-10-31",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -2312,7 +2323,7 @@
    "s": "Pharma & Biologics",
    "id": "smartrecruiters|AbbVie|3743990016497319",
    "first_seen": "2026-10-30",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -2329,7 +2340,7 @@
    "s": "Pharma & Biologics",
    "id": "smartrecruiters|AbbVie|3743990016497986",
    "first_seen": "2026-10-30",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -2346,7 +2357,7 @@
    "s": "Pharma & Biologics",
    "id": "smartrecruiters|AbbVie|3743990016489736",
    "first_seen": "2026-10-30",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -2365,7 +2376,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|ipsen|/job/Dublin/Maintenance-Manager_R-22732",
    "first_seen": "2026-10-29",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -2435,7 +2446,7 @@
    "s": "Pharma & Biologics",
    "id": "smartrecruiters|AbbVie|3743990016428006",
    "first_seen": "2026-10-28",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -2509,7 +2520,7 @@
    "s": "Pharma & Biologics",
    "id": "smartrecruiters|AbbVie|3743990016370346",
    "first_seen": "2026-10-24",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -2684,7 +2695,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|vantive|/job/Castlebar-Mayo/Stability-Specialist_JR-198727-1",
    "first_seen": "2026-10-23",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -2738,7 +2749,7 @@
    "s": "Pharma & Biologics",
    "id": "smartrecruiters|AbbVie|3743990016262716",
    "first_seen": "2026-10-21",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -2755,24 +2766,7 @@
    "s": "Pharma & Biologics",
    "id": "smartrecruiters|AbbVie|3743990016253836",
    "first_seen": "2026-10-21",
-   "last_seen": "2026-11-13",
-   "active": true
-  },
-  {
-   "co": "Alexion Pharmaceuticals",
-   "t": "Quality Operations Head of Business Planning and Performance",
-   "loc": "Ireland - Dublin College Park",
-   "cty": "Dublin",
-   "d": "2026-10-20",
-   "u": "https://astrazeneca.wd3.myworkdayjobs.com/en-US/Alexion/job/Ireland---Dublin-College-Park/Quality-Operations-Head-of-Business-Planning-and-Performance_R-262247",
-   "c": [
-    "qa"
-   ],
-   "fit": false,
-   "s": "Pharma & Biologics",
-   "id": "workday|astrazeneca|/job/Ireland---Dublin-College-Park/Quality-Operations-Head-of-Business-Planning-and-Performance_R-262247",
-   "first_seen": "2026-10-21",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -2833,23 +2827,6 @@
   },
   {
    "co": "Vantive",
-   "t": "Renal Therapy Specialist, Peritoneal Dialysis",
-   "loc": "Castlebar, Mayo",
-   "cty": "Mayo",
-   "d": "2026-10-20",
-   "u": "https://vantive.wd108.myworkdayjobs.com/en-US/Vantive/job/Castlebar-Mayo/Therapy-Specialist--PD--Ireland_JR-193519",
-   "c": [
-    "val"
-   ],
-   "fit": false,
-   "s": "Pharma & Biologics",
-   "id": "workday|vantive|/job/Castlebar-Mayo/Therapy-Specialist--PD--Ireland_JR-193519",
-   "first_seen": "2026-09-05",
-   "last_seen": "2026-11-13",
-   "active": true
-  },
-  {
-   "co": "Vantive",
    "t": "IT Manager - MES EMEA Leader",
    "loc": "Castlebar, Mayo",
    "cty": "Mayo",
@@ -2865,7 +2842,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|vantive|/job/Castlebar-Mayo/IT-Manager---MES-EMEA-Leader_JR-198538",
    "first_seen": "2026-10-21",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -2903,7 +2880,7 @@
    "s": "Pharma & Biologics",
    "id": "smartrecruiters|AbbVie|3743990016182583",
    "first_seen": "2026-10-17",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -2920,7 +2897,7 @@
    "s": "Pharma & Biologics",
    "id": "smartrecruiters|AbbVie|3743990016172541",
    "first_seen": "2026-10-17",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -2973,7 +2950,7 @@
    "s": "Pharma & Biologics",
    "id": "smartrecruiters|AbbVie|3743990016138186",
    "first_seen": "2026-10-15",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -3027,7 +3004,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|vantive|/job/Castlebar-Mayo/Production-Supervisor_JR-198583",
    "first_seen": "2026-10-14",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -3063,7 +3040,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|ipsen|/job/Dublin/Country-Manager--Ireland_R-22266",
    "first_seen": "2026-10-14",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -3137,7 +3114,7 @@
    "s": "Pharma & Biologics",
    "id": "smartrecruiters|AbbVie|3743990016012306",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -3207,7 +3184,7 @@
    "s": "Pharma & Biologics",
    "id": "smartrecruiters|AbbVie|3743990016004000",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -3224,7 +3201,7 @@
    "s": "Pharma & Biologics",
    "id": "smartrecruiters|AbbVie|3743990016004011",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -3241,7 +3218,7 @@
    "s": "Pharma & Biologics",
    "id": "smartrecruiters|AbbVie|3743990016004006",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -3259,7 +3236,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|vantive|/job/Castlebar-Mayo/Health---Safety-Specialist_JR-197876",
    "first_seen": "2026-09-18",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -3277,7 +3254,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|vantive|/job/Castlebar-Mayo/Process-Validation-Co-Op_JR-198244",
    "first_seen": "2026-10-08",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -3297,7 +3274,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|vantive|/job/Castlebar-Mayo/Polymer-engineer-Coop_JR-198284",
    "first_seen": "2026-10-08",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -3316,7 +3293,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|vantive|/job/Castlebar-Mayo/Automation-Engineer-Coop_JR-198280",
    "first_seen": "2026-10-08",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -3354,7 +3331,7 @@
    "s": "Pharma & Biologics",
    "id": "smartrecruiters|AbbVie|3743990015910323",
    "first_seen": "2026-10-06",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -3371,7 +3348,7 @@
    "s": "Pharma & Biologics",
    "id": "smartrecruiters|AbbVie|3743990015910346",
    "first_seen": "2026-10-06",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -3499,7 +3476,7 @@
    "s": "Pharma & Biologics",
    "id": "smartrecruiters|AbbVie|3743990015885461",
    "first_seen": "2026-10-06",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -3554,7 +3531,7 @@
    "s": "Pharma & Biologics",
    "id": "smartrecruiters|AbbVie|3743990015861092",
    "first_seen": "2026-10-03",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -3571,7 +3548,7 @@
    "s": "Pharma & Biologics",
    "id": "smartrecruiters|AbbVie|3743990015851716",
    "first_seen": "2026-10-03",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -3682,7 +3659,7 @@
    "s": "Pharma & Biologics",
    "id": "smartrecruiters|AbbVie|3743990015842706",
    "first_seen": "2026-10-02",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -3815,7 +3792,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|vantive|/job/Castlebar-Mayo/Principal-Engineer_JR-197923",
    "first_seen": "2026-09-24",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -3941,7 +3918,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|vantive|/job/Castlebar-Mayo/Product-Development-Engineer_JR-197613",
    "first_seen": "2026-09-08",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -3958,7 +3935,7 @@
    "s": "Pharma & Biologics",
    "id": "smartrecruiters|AbbVie|3743990015074106",
    "first_seen": "2026-09-05",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -3975,7 +3952,7 @@
    "s": "Pharma & Biologics",
    "id": "smartrecruiters|AbbVie|3743990015009326",
    "first_seen": "2026-09-05",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -3992,7 +3969,7 @@
    "s": "Pharma & Biologics",
    "id": "smartrecruiters|AbbVie|3743990014966976",
    "first_seen": "2026-09-05",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -4009,7 +3986,7 @@
    "s": "Pharma & Biologics",
    "id": "smartrecruiters|AbbVie|3743990014945266",
    "first_seen": "2026-09-05",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -4043,7 +4020,7 @@
    "s": "Pharma & Biologics",
    "id": "smartrecruiters|AbbVie|3743990014862686",
    "first_seen": "2026-09-05",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -4347,7 +4324,7 @@
    "s": "Pharma & Biologics",
    "id": "smartrecruiters|AbbVie|3743990013928286",
    "first_seen": "2026-09-05",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -4383,7 +4360,7 @@
    "s": "Pharma & Biologics",
    "id": "smartrecruiters|AbbVie|3743990013659886",
    "first_seen": "2026-09-05",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -4400,7 +4377,7 @@
    "s": "Pharma & Biologics",
    "id": "smartrecruiters|AbbVie|3743990013615156",
    "first_seen": "2026-09-05",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -5013,6 +4990,27 @@
    "last_seen": "2026-11-09",
    "active": false,
    "expired_on": "2026-11-10"
+  },
+  {
+   "co": "Sanofi",
+   "t": "Quality Control Support Manager",
+   "loc": "Waterford",
+   "cty": "Waterford",
+   "d": "2026-11-03",
+   "u": "https://sanofi.wd3.myworkdayjobs.com/en-US/SanofiCareers/job/Waterford/Quality-Control-Support-Manager_R2877214-1",
+   "c": [
+    "capa",
+    "dsdp",
+    "qa",
+    "val"
+   ],
+   "fit": false,
+   "s": "Pharma & Biologics",
+   "id": "workday|sanofi|/job/Waterford/Quality-Control-Support-Manager_R2877214-1",
+   "first_seen": "2026-11-03",
+   "last_seen": "2026-11-13",
+   "active": false,
+   "expired_on": "2026-11-14"
   },
   {
    "co": "Sanofi",
@@ -6442,6 +6440,24 @@
    "last_seen": "2026-11-03",
    "active": false,
    "expired_on": "2026-11-04"
+  },
+  {
+   "co": "Vantive",
+   "t": "Renal Therapy Specialist, Peritoneal Dialysis",
+   "loc": "Castlebar, Mayo",
+   "cty": "Mayo",
+   "d": "2026-10-20",
+   "u": "https://vantive.wd108.myworkdayjobs.com/en-US/Vantive/job/Castlebar-Mayo/Therapy-Specialist--PD--Ireland_JR-193519",
+   "c": [
+    "val"
+   ],
+   "fit": false,
+   "s": "Pharma & Biologics",
+   "id": "workday|vantive|/job/Castlebar-Mayo/Therapy-Specialist--PD--Ireland_JR-193519",
+   "first_seen": "2026-09-05",
+   "last_seen": "2026-11-13",
+   "active": false,
+   "expired_on": "2026-11-14"
   },
   {
    "co": "Alexion Pharmaceuticals",
