@@ -1,6 +1,6 @@
 {
- "generated": "2026-11-20T14:28:26+00:00",
- "active_roles": 252,
+ "generated": "2026-11-21T13:48:34+00:00",
+ "active_roles": 255,
  "companies": 20,
  "errors": [
   "Eli Lilly: HTTP Error 422: Unprocessable Entity",
@@ -10,6 +10,101 @@
   "APC Ltd: no validated board - skipped"
  ],
  "jobs": [
+  {
+   "co": "Alexion Pharmaceuticals",
+   "t": "Technical Services Upstream Specialist",
+   "loc": "Ireland - Dublin College Park",
+   "cty": "Dublin",
+   "d": "2026-11-20",
+   "u": "https://astrazeneca.wd3.myworkdayjobs.com/en-US/Alexion/job/Ireland---Dublin-College-Park/Technical-Services-Upstream-Specialist_R-264815",
+   "c": [
+    "capa",
+    "dsdp",
+    "qa",
+    "val"
+   ],
+   "fit": false,
+   "s": "Pharma & Biologics",
+   "id": "workday|astrazeneca|/job/Ireland---Dublin-College-Park/Technical-Services-Upstream-Specialist_R-264815",
+   "first_seen": "2026-11-21",
+   "last_seen": "2026-11-21",
+   "active": true
+  },
+  {
+   "co": "Amgen",
+   "t": "Senior Validation Engineer - Aseptic Process Simulation (APS)",
+   "loc": "Ireland - Dublin",
+   "cty": "Dublin",
+   "d": "2026-11-20",
+   "u": "https://amgen.wd1.myworkdayjobs.com/en-US/Careers/job/Ireland---Dublin/Senior-Validation-Engineer---Aseptic-Process-Simulation--APS-_R-262123",
+   "c": [
+    "aseptic",
+    "dsdp",
+    "val"
+   ],
+   "fit": true,
+   "s": "Pharma & Biologics",
+   "id": "workday|amgen|/job/Ireland---Dublin/Senior-Validation-Engineer---Aseptic-Process-Simulation--APS-_R-262123",
+   "first_seen": "2026-11-21",
+   "last_seen": "2026-11-21",
+   "active": true
+  },
+  {
+   "co": "Baxter",
+   "t": "Quality Specialist",
+   "loc": "Dublin",
+   "cty": "Dublin",
+   "d": "2026-11-20",
+   "u": "https://baxter.wd1.myworkdayjobs.com/en-US/baxter/job/Dublin/Quality-Specialist_JR-212094-1",
+   "c": [
+    "aseptic",
+    "capa",
+    "qa",
+    "val"
+   ],
+   "fit": true,
+   "s": "Pharma & Biologics",
+   "id": "workday|baxter|/job/Dublin/Quality-Specialist_JR-212094-1",
+   "first_seen": "2026-11-15",
+   "last_seen": "2026-11-21",
+   "active": true
+  },
+  {
+   "co": "Baxter",
+   "t": "Technician, Production",
+   "loc": "Dublin",
+   "cty": "Dublin",
+   "d": "2026-11-20",
+   "u": "https://baxter.wd1.myworkdayjobs.com/en-US/baxter/job/Dublin/Technician--Production_JR-211363-1",
+   "c": [
+    "aseptic",
+    "val"
+   ],
+   "fit": false,
+   "s": "Pharma & Biologics",
+   "id": "workday|baxter|/job/Dublin/Technician--Production_JR-211363-1",
+   "first_seen": "2026-11-19",
+   "last_seen": "2026-11-21",
+   "active": true
+  },
+  {
+   "co": "Baxter",
+   "t": "Technician, Production",
+   "loc": "Dublin",
+   "cty": "Dublin",
+   "d": "2026-11-20",
+   "u": "https://baxter.wd1.myworkdayjobs.com/en-US/baxter/job/Dublin/Technician--Production_JR-209642-1",
+   "c": [
+    "aseptic",
+    "val"
+   ],
+   "fit": false,
+   "s": "Pharma & Biologics",
+   "id": "workday|baxter|/job/Dublin/Technician--Production_JR-209642-1",
+   "first_seen": "2026-09-17",
+   "last_seen": "2026-11-21",
+   "active": true
+  },
   {
    "co": "Bristol Myers Squibb",
    "t": "Senior Technician, QC Sample Management",
@@ -25,7 +120,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|bristolmyerssquibb|/job/Cruiserath---IE/Senior-Technician_R1608535",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -44,7 +139,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|bristolmyerssquibb|/job/Cruiserath---IE/Specialist--Reliability-Technician---GMP-Maintenance--Shift-_R1608747",
    "first_seen": "2026-11-20",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -62,7 +157,25 @@
    "s": "Pharma & Biologics",
    "id": "workday|bristolmyerssquibb|/job/Cruiserath---IE/Specialist--Reliability-Technician---GMP-Maintenance--Shift-_R1608748",
    "first_seen": "2026-11-20",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
+   "active": true
+  },
+  {
+   "co": "Johnson & Johnson",
+   "t": "Sr Pr Eng Process Engineering",
+   "loc": "Little Island, Cork, Ireland",
+   "cty": "Cork",
+   "d": "2026-11-20",
+   "u": "https://jj.wd5.myworkdayjobs.com/en-US/JJ/job/Little-Island-Cork-Ireland/Sr-Pr-Eng-Process-Engineering_R-112436",
+   "c": [
+    "capa",
+    "dsdp"
+   ],
+   "fit": false,
+   "s": "Pharma & Biologics",
+   "id": "workday|jj|/job/Little-Island-Cork-Ireland/Sr-Pr-Eng-Process-Engineering_R-112436",
+   "first_seen": "2026-11-21",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -79,7 +192,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|jj|/job/Ringaskiddy-Cork-Ireland/Sr-Project-Manager_R-112428",
    "first_seen": "2026-11-20",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -97,7 +210,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|jj|/job/Ringaskiddy-Cork-Ireland/MES-Modelling-Specialist_R-112172",
    "first_seen": "2026-11-20",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -115,7 +228,46 @@
    "s": "Pharma & Biologics",
    "id": "workday|jj|/job/Ringaskiddy-Cork-Ireland/Technology-Lead--SC-Technology--Low-Code_R-108650-1",
    "first_seen": "2026-11-18",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
+   "active": true
+  },
+  {
+   "co": "Regeneron",
+   "t": "Temp Assoc QC Analyst",
+   "loc": "Limerick",
+   "cty": "Limerick",
+   "d": "2026-11-20",
+   "u": "https://regeneron.wd1.myworkdayjobs.com/en-US/Careers/job/Limerick/Technical-Training-Specialist-QC--Temp-_R45653",
+   "c": [
+    "capa",
+    "qa",
+    "val"
+   ],
+   "fit": false,
+   "s": "Pharma & Biologics",
+   "id": "workday|regeneron|/job/Limerick/Technical-Training-Specialist-QC--Temp-_R45653",
+   "first_seen": "2026-09-05",
+   "last_seen": "2026-11-21",
+   "active": true
+  },
+  {
+   "co": "Sanofi",
+   "t": "Batch Release Lead Qualified Person",
+   "loc": "Waterford",
+   "cty": "Waterford",
+   "d": "2026-11-20",
+   "u": "https://sanofi.wd3.myworkdayjobs.com/en-US/SanofiCareers/job/Waterford/Batch-Release-Lead-Qualified-Person_R2871936",
+   "c": [
+    "aseptic",
+    "dsdp",
+    "qa",
+    "val"
+   ],
+   "fit": false,
+   "s": "Pharma & Biologics",
+   "id": "workday|sanofi|/job/Waterford/Batch-Release-Lead-Qualified-Person_R2871936",
+   "first_seen": "2026-09-24",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -136,7 +288,24 @@
    "s": "Pharma & Biologics",
    "id": "workday|sanofi|/job/Waterford/Manufacturing-Operations-Manager_R2872381",
    "first_seen": "2026-11-09",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
+   "active": true
+  },
+  {
+   "co": "Thermo Fisher Scientific",
+   "t": "Supervisor, Biopharma",
+   "loc": "Athlone, Ireland",
+   "cty": "Westmeath",
+   "d": "2026-11-20",
+   "u": "https://thermofisher.wd5.myworkdayjobs.com/en-US/ThermoFisherCareers/job/Athlone-Ireland/Supervisor--Biopharma_R-01351146",
+   "c": [
+    "dsdp"
+   ],
+   "fit": false,
+   "s": "Pharma & Biologics",
+   "id": "workday|thermofisher|/job/Athlone-Ireland/Supervisor--Biopharma_R-01351146",
+   "first_seen": "2026-09-08",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -153,7 +322,7 @@
    "s": "Pharma & Biologics",
    "id": "smartrecruiters|AbbVie|3743990016957496",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -171,7 +340,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|astrazeneca|/job/Ireland---Dublin-College-Park/Principal-Data-Product-Engineer---Data-Ontology---Metadata_R-256837",
    "first_seen": "2026-09-06",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -190,7 +359,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|amgen|/job/Ireland---Dublin/Specialist-Contract-Development---Manufacturing_R-261871",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -211,7 +380,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|amgen|/job/Ireland---Dun-Laoghaire/Process-Development-Manager_R-261972",
    "first_seen": "2026-11-20",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -232,25 +401,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|amgen|/job/Ireland---Dun-Laoghaire/Senior-Engineer--Process-Development_R-261973",
    "first_seen": "2026-11-20",
-   "last_seen": "2026-11-20",
-   "active": true
-  },
-  {
-   "co": "Baxter",
-   "t": "Technician, Production",
-   "loc": "Dublin",
-   "cty": "Dublin",
-   "d": "2026-11-19",
-   "u": "https://baxter.wd1.myworkdayjobs.com/en-US/baxter/job/Dublin/Technician--Production_JR-211363-1",
-   "c": [
-    "aseptic",
-    "val"
-   ],
-   "fit": false,
-   "s": "Pharma & Biologics",
-   "id": "workday|baxter|/job/Dublin/Technician--Production_JR-211363-1",
-   "first_seen": "2026-11-19",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -269,7 +420,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|bristolmyerssquibb|/job/Cruiserath---IE/Associate--Sample-Management--QC_R1608536",
    "first_seen": "2026-11-18",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -288,7 +439,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|gehc|/job/Cork/QC-Raw-Material-Analyst_R4049566-1",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -307,7 +458,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|jj|/job/Ringaskiddy-Cork-Ireland/Lead-Utilities-Engineer_R-109925",
    "first_seen": "2026-11-20",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -324,7 +475,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|jj|/job/Ringaskiddy-Cork-Ireland/Apprentice-Maintenance-Technician_R-111573-1",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -343,7 +494,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|msd|/job/IRL---Tipperary---Ballydine/Assoc-Scientist--Chemistry_R427343-1",
    "first_seen": "2026-11-18",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -362,7 +513,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|msd|/job/IRL---Dublin---Leopardstown-Red-Oak/Associate-Director--External-Manufacturing--Integrated-Launch-Excellence-_R428020-1",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -379,7 +530,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|novartis|/job/Dublin-NOCC/Senior-Manager-Patient-Experience-Data-Science_REQ-10091535-1",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -396,7 +547,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|novartis|/job/Dublin-NOCC/Manager--Consulting---Program-Management_REQ-10092598",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -414,7 +565,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|pciservices|/job/Stamullen-Co-Meath-IRL/Desktop-Support-Specialist-II_JR120710",
    "first_seen": "2026-11-20",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -434,7 +585,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|pciservices|/job/Stamullen-Co-Meath-IRL/Associate-Director--Process-Engineering_JR120285",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -454,7 +605,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|pciservices|/job/Dundalk-Co-Louth-IRL/Quality-Operations-Technician-Dundalk_JR119890",
    "first_seen": "2026-11-06",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -475,7 +626,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|sanofi|/job/Waterford/Process-Engineer--Inspection--Device-Assembly--Packaging-_R2876069",
    "first_seen": "2026-11-20",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -496,7 +647,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|sanofi|/job/Waterford/Automation-Engineer_R2871109",
    "first_seen": "2026-09-15",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -516,7 +667,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|astrazeneca|/job/Ireland---Dublin-College-Park/Head-of-BDS-Engineering_R-264636",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -537,7 +688,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|astrazeneca|/job/Ireland---Athlone/QC-Analyst_R-262306",
    "first_seen": "2026-10-21",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -558,7 +709,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|amgen|/job/Ireland---Dublin/Senior-Associate-QC-LIMS--LMES--CIMS--Empower_R-261646",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -579,7 +730,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|amgen|/job/Ireland---Dublin/Manufacturing-Manager--Manufacturing-Support-_R-262095-1",
    "first_seen": "2026-11-18",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -596,7 +747,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|amgen|/job/Ireland---Dublin/QC-Senior-Associate--QC-Sample-Management-_R-261881-1",
    "first_seen": "2026-11-18",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -617,7 +768,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|amgen|/job/Ireland---Dublin/Manufacturing-Manager_R-262100-1",
    "first_seen": "2026-11-18",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -637,7 +788,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|astrazeneca|/job/Ireland---Dublin-College-Park/Associate-Director-Process-Engineering---APICOM_R-250294",
    "first_seen": "2026-11-18",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -657,7 +808,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|bristolmyerssquibb|/job/Cruiserath---IE/Senior-Specialist--Utilities-and-Process-Systems_R1608529",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -676,7 +827,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|gehc|/job/Cork/QC-People-Team-Leader---Equipment---Projects_R4049429-1",
    "first_seen": "2026-11-18",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -696,7 +847,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|gsk|/job/Cork-Carrigtohill-Business-Park/QC-Analytical-Chemist_451112-1",
    "first_seen": "2026-11-18",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -713,7 +864,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|jj|/job/Ringaskiddy-Cork-Ireland/Technology-Manager--EMEA-Contracting_R-078448-1",
    "first_seen": "2026-09-23",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -731,7 +882,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|jj|/job/Ringaskiddy-Cork-Ireland/Engineering-Director_R-111136",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -750,7 +901,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|jj|/job/Limerick-Ireland/Process-Engineering-Manager_R-111969",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -769,7 +920,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|jj|/job/Limerick-Ireland/Injection-Moulding-Engineer_R-110194",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -786,7 +937,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|jj|/job/Ringaskiddy-Cork-Ireland/Technology-Lead--MAKE-MES-IoT-Systems_R-111867",
    "first_seen": "2026-11-18",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -803,7 +954,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|jj|/job/Ringaskiddy-Cork-Ireland/Technology-Manager--MAKE-MES-IoT-Systems_R-111859-2",
    "first_seen": "2026-11-18",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -820,7 +971,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|jj|/job/Ringaskiddy-Cork-Ireland/Lead-Analyst--Principal-Operations_R-111849-1",
    "first_seen": "2026-11-18",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -841,7 +992,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|msd|/job/IRL---Dublin---Swords-Biotech/Senior-Specialist--Upstream-Technical-Operations_R427692-1",
    "first_seen": "2026-11-18",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -862,7 +1013,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|msd|/job/IRL---Louth-County---Dundalk/Facility-Operational-Readiness-Associate-Director_R428128-1",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -879,7 +1030,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|novartis|/job/Dublin-NOCC/Clinical-Biospecimen-Senior-Scientist_REQ-10092796-1",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -898,7 +1049,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|pfizer|/job/Ireland---Dublin---Grange-Castle/Senior-Manager--NextGen-MES-Agentic-Lead_4968160-1",
    "first_seen": "2026-11-18",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -916,7 +1067,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|pfizer|/job/Ireland---Dublin---Grange-Castle/Manager--Agentic-Product-Owner_4968164-1",
    "first_seen": "2026-11-18",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -934,7 +1085,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|thermofisher|/job/Athlone-Ireland/Study-Lead---Inhalation_R-01368234",
    "first_seen": "2026-10-04",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -953,7 +1104,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|amgen|/job/Ireland---Dublin/Specialist-F-E_R-260688",
    "first_seen": "2026-11-17",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -974,7 +1125,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|amgen|/job/Ireland---Dublin/Site-Aseptic-Validation-Sr-Engineer----Sterilisation_R-261768-1",
    "first_seen": "2026-11-18",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -994,7 +1145,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|gehc|/job/Cork/Graduate-Engineer_R4049647-1",
    "first_seen": "2026-11-18",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -1013,7 +1164,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|jj|/job/Dublin-Ireland/Product-Quality-Specialist_R-111791-1",
    "first_seen": "2026-11-18",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -1033,7 +1184,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|jj|/job/Limerick-Ireland/Staff-Engineer-Injection-Molding_R-095420-1",
    "first_seen": "2026-10-28",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -1051,7 +1202,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|msd|/job/IRL---Meath---Dunboyne/QC-Stability-and-Sample-Management-Specialist_R423664-1",
    "first_seen": "2026-11-18",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -1071,7 +1222,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|msd|/job/IRL---Dublin---Swords-Biotech/Senior-Data-Analytics---AI-Specialist_R426694-1",
    "first_seen": "2026-11-18",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -1091,7 +1242,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|msd|/job/IRL---Dublin---Swords-Biotech/Technology-Compliance-Specialist_R419371-2",
    "first_seen": "2026-10-06",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -1108,7 +1259,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|novartis|/job/Dublin-NOCC/Director--AI-Systems-Engineering---Evaluation_REQ-10092899-1",
    "first_seen": "2026-11-18",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -1125,7 +1276,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|novartis|/job/Dublin-NOCC/Associate-Director--Medical-Advisor--2-Openings-_REQ-10092797-1",
    "first_seen": "2026-11-18",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -1146,7 +1297,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|sanofi|/job/Waterford/Quality-Visual-Inspection-Engineer_R2878821-1",
    "first_seen": "2026-11-17",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -1165,7 +1316,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|thermofisher|/job/Athlone-Ireland/CMBL---Scientist-I_R-01367934-1",
    "first_seen": "2026-11-17",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -1182,7 +1333,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|astrazeneca|/job/Ireland---Dublin-College-Park/Quality-Operations-Head-of-Business-Planning-and-Performance_R-262247",
    "first_seen": "2026-10-21",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -1202,7 +1353,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|amgen|/job/Ireland---Dublin/Senior-Associate-Manufacturing_R-261007",
    "first_seen": "2026-11-16",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -1221,7 +1372,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|astrazeneca|/job/Ireland---Dublin-College-Park/Senior-IT-OT-Engineer---APICOM_R-264400-1",
    "first_seen": "2026-11-17",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -1240,7 +1391,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|astrazeneca|/job/Ireland---Dublin-College-Park/PAS-X--MES--Engineer---APICOM_R-264394-2",
    "first_seen": "2026-11-17",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -1260,7 +1411,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|astrazeneca|/job/Ireland---Dublin-College-Park/Automation-Engineer---APICOM_R-264403-1",
    "first_seen": "2026-11-17",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -1279,7 +1430,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|bristolmyerssquibb|/job/Dublin---IE/AI-Cloud-Engineer--PDS-BI-T---AI-Engineering---Enablement_R1608389",
    "first_seen": "2026-11-16",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -1299,7 +1450,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|jj|/job/Ringaskiddy-Cork-Ireland/Operations-Team-Lead_R-111264",
    "first_seen": "2026-11-17",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -1317,7 +1468,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|jj|/job/Limerick-Ireland/Senior-Injection-Moulding-Engineer_R-110192",
    "first_seen": "2026-11-17",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -1337,7 +1488,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|jj|/job/Limerick-Ireland/Staff-Injection-Moulding-Engineer_R-110187-1",
    "first_seen": "2026-11-17",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -1357,7 +1508,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|msd|/job/IRL---Meath---Dunboyne/Associate-Specialist--QC-Bioassay_R426293-1",
    "first_seen": "2026-11-16",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -1376,25 +1527,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|pciservices|/job/Dundalk-Co-Louth-IRL/Production-Operator-Level-3--Line-lead-_JR120719",
    "first_seen": "2026-11-16",
-   "last_seen": "2026-11-20",
-   "active": true
-  },
-  {
-   "co": "Regeneron",
-   "t": "Clinical Supply Operations Specialist",
-   "loc": "Dublin",
-   "cty": "Dublin",
-   "d": "2026-11-16",
-   "u": "https://regeneron.wd1.myworkdayjobs.com/en-US/Careers/job/Dublin/Clinical-Supply-Operations-Specialist_R53132",
-   "c": [
-    "dsdp",
-    "qa"
-   ],
-   "fit": false,
-   "s": "Pharma & Biologics",
-   "id": "workday|regeneron|/job/Dublin/Clinical-Supply-Operations-Specialist_R53132",
-   "first_seen": "2026-11-17",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -1414,7 +1547,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|regeneron|/job/Limerick/Process-Compliance-Specialist-Manufacturing_R51299",
    "first_seen": "2026-11-03",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -1434,7 +1567,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|thermofisher|/job/Athlone-Ireland/Senior-Scientist--Biopharma---Athlone_R-01355457",
    "first_seen": "2026-10-23",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -1451,7 +1584,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|astrazeneca|/job/Ireland---Dublin-College-Park/Head-of-Product-Quality_R-263256",
    "first_seen": "2026-11-03",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -1472,7 +1605,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|amgen|/job/Ireland---Dublin/Senior-Validation-Engineer_R-261381-1",
    "first_seen": "2026-11-15",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -1490,7 +1623,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|amgen|/job/Ireland---Dublin/Senior-Engineer--Validation---Utilities_R-261373-1",
    "first_seen": "2026-11-15",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -1508,7 +1641,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|astrazeneca|/job/Ireland---Dublin-College-Park/Director---Digital-Dx---AI-Lead_R-264318",
    "first_seen": "2026-11-13",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -1527,24 +1660,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|bristolmyerssquibb|/job/Cruiserath---IE/Specialist--Reliability-Technician---GMP-Maintenance--Days-_R1607254",
    "first_seen": "2026-10-16",
-   "last_seen": "2026-11-20",
-   "active": true
-  },
-  {
-   "co": "Johnson & Johnson",
-   "t": "Sr Manager, Business Continuity & Risk Process Lead",
-   "loc": "Ringaskiddy, Cork, Ireland",
-   "cty": "Cork",
-   "d": "2026-11-13",
-   "u": "https://jj.wd5.myworkdayjobs.com/en-US/JJ/job/Ringaskiddy-Cork-Ireland/Business-Continuity---Risk-Process-Lead_R-110140-2",
-   "c": [
-    "capa"
-   ],
-   "fit": false,
-   "s": "Pharma & Biologics",
-   "id": "workday|jj|/job/Ringaskiddy-Cork-Ireland/Business-Continuity---Risk-Process-Lead_R-110140-2",
-   "first_seen": "2026-11-10",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -1561,7 +1677,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|regeneron|/job/Dublin/Manager--Regulatory-Affairs_R51613",
    "first_seen": "2026-11-13",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -1579,7 +1695,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|thermofisher|/job/Athlone-Ireland/Scientist-I---Microbiology_R-01362438",
    "first_seen": "2026-09-16",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -1599,7 +1715,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|astrazeneca|/job/Ireland---Dublin-College-Park/Senior-Maintenance-Engineer_R-259802",
    "first_seen": "2026-09-11",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -1619,7 +1735,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|gehc|/job/Cork/QC-Shift-Analyst_R4048933-1",
    "first_seen": "2026-11-06",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -1639,7 +1755,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|gehc|/job/Cork/Process-Monitoring---Contamination-Control-Microbiologist_R4049240-1",
    "first_seen": "2026-11-12",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -1657,7 +1773,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|gilead|/job/Ireland---Cork/Sr-Manager--Quality-Control_R0056046",
    "first_seen": "2026-11-13",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -1677,7 +1793,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|gilead|/job/Ireland---Cork/Sr-Specialist--Quality-Systems_R0056553-2",
    "first_seen": "2026-11-13",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -1694,7 +1810,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|novartis|/job/Dublin-NOCC/Trial-Vendor-Associate-Director--Community-Lead_REQ-10092238",
    "first_seen": "2026-11-13",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -1714,7 +1830,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|pciservices|/job/Stamullen-Co-Meath-IRL/IRE-Quality-Operations-Technician_JR120395",
    "first_seen": "2026-11-06",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -1731,7 +1847,7 @@
    "s": "Pharma & Biologics",
    "id": "smartrecruiters|AbbVie|3743990016791626",
    "first_seen": "2026-11-12",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -1750,7 +1866,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|astrazeneca|/job/Ireland---Dublin-College-Park/New-Product-Introduction-Manager_R-263973",
    "first_seen": "2026-11-11",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -1770,7 +1886,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|astrazeneca|/job/Ireland---Dublin-College-Park/Technical-Transfer-Lead_R-259299",
    "first_seen": "2026-09-06",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -1791,7 +1907,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|amgen|/job/Ireland---Dublin/Detailed-Scheduling-People-Manager_R-261249",
    "first_seen": "2026-11-11",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -1810,7 +1926,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|gilead|/job/Ireland---Dublin/Distribution-Specialist-III_R0054028-1",
    "first_seen": "2026-11-05",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -1828,7 +1944,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|novartis|/job/Dublin-NOCC/Clinical-Study-Data-Lead---Dublin_REQ-10084732-1",
    "first_seen": "2026-09-06",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -1848,7 +1964,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|pciservices|/job/Stamullen-Co-Meath-IRL/Facilities-Engineer_JR116885",
    "first_seen": "2026-09-05",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -1868,7 +1984,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|pciservices|/job/Stamullen-Co-Meath-IRL/Quality-Assurance-Regulatory-Compliance-Specialist_JR120628",
    "first_seen": "2026-11-12",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -1888,7 +2004,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|thermofisher|/job/Athlone-Ireland/Scientist-II_R-01369044-1",
    "first_seen": "2026-11-12",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -1905,7 +2021,7 @@
    "s": "Pharma & Biologics",
    "id": "smartrecruiters|AbbVie|3743990016755086",
    "first_seen": "2026-11-11",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -1925,7 +2041,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|astrazeneca|/job/Ireland---Athlone/QA-Specialist_R-263955",
    "first_seen": "2026-11-11",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -1946,7 +2062,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|astrazeneca|/job/Ireland---Dublin-College-Park/Head-of-Sterility-Assurance-and-Contamination-Control_R-263931",
    "first_seen": "2026-11-10",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -1967,7 +2083,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|amgen|/job/Ireland---Dun-Laoghaire/Senior-Maintenance-Technician---Shift-Role--24-7-_R-261275-1",
    "first_seen": "2026-11-11",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -1988,7 +2104,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|amgen|/job/Ireland---Dun-Laoghaire/Sr-Maintenance-Technician---Inspection---Packaging--24-7-Shift-_R-261277-1",
    "first_seen": "2026-11-11",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -2007,7 +2123,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|astrazeneca|/job/Ireland---Dublin-College-Park/Advanced-Manufacturing-Technician--API--APICOM_R-260579",
    "first_seen": "2026-09-26",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -2027,7 +2143,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|astrazeneca|/job/Ireland---Dublin-College-Park/APICOM-Maintenance-Technician_R-263909",
    "first_seen": "2026-11-10",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -2046,7 +2162,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|astrazeneca|/job/Ireland---Dublin-College-Park/Senior-Scientist--Analytical-_R-263846-1",
    "first_seen": "2026-11-10",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -2064,7 +2180,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|astrazeneca|/job/Ireland---Dublin-College-Park/Senior-Scientist--Chemistry-_R-263848-1",
    "first_seen": "2026-11-10",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -2083,7 +2199,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|jj|/job/Limerick-Ireland/Maintenance-Technician_R-110191",
    "first_seen": "2026-11-10",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -2102,7 +2218,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|jj|/job/Limerick-Ireland/Staff-Manufacturing-Engineer_R-106837",
    "first_seen": "2026-11-10",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -2120,7 +2236,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|pfizer|/job/Ireland---Dublin---Ringsend/Senior-Manager--Corporate-Audit_4963160-2",
    "first_seen": "2026-09-12",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -2137,7 +2253,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|regeneron|/job/Remote---Ireland/Senior-Manager-GD-GCP-Auditing--Ireland-_R50344",
    "first_seen": "2026-09-05",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -2154,7 +2270,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|regeneron|/job/Dublin/Manager-Regulatory-Affairs_R51618",
    "first_seen": "2026-11-11",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -2174,7 +2290,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|regeneron|/job/Limerick/Lead-Maintenance-Technician_R52809",
    "first_seen": "2026-11-11",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -2191,7 +2307,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|regeneron|/job/Limerick/Maintenance-Technician_R52811",
    "first_seen": "2026-11-10",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -2209,7 +2325,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|viatris|/job/Baldoyle-Dublin-Ireland/QC-Analyst_R5675644",
    "first_seen": "2026-11-10",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -2230,7 +2346,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|viatris|/job/Inverin-County-Galway-Ireland/Sterile-New-Product-Program-Engineer_R5675593",
    "first_seen": "2026-11-06",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -2249,7 +2365,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|viatris|/job/Inverin-County-Galway-Ireland/Maintenance-Technician_R5675596-1",
    "first_seen": "2026-11-06",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -2268,7 +2384,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|viatris|/job/Inverin-County-Galway-Ireland/Value-Stream-Manager---Cartridge-Filling_R5675598",
    "first_seen": "2026-11-06",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -2287,7 +2403,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|viatris|/job/Inverin-County-Galway-Ireland/Microbiology-Lead_R5675603",
    "first_seen": "2026-11-06",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -2308,7 +2424,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|viatris|/job/Inverin-County-Galway-Ireland/Technical-Services-Lead_R5675600",
    "first_seen": "2026-11-09",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -2328,7 +2444,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|astrazeneca|/job/Ireland---Dublin-College-Park/Maintenance-Technician_R-260135-2",
    "first_seen": "2026-11-10",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -2348,7 +2464,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|pciservices|/job/Stamullen-Co-Meath-IRL/Process-Technician-Serialisation_JR116295",
    "first_seen": "2026-09-05",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -2368,7 +2484,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|vantive|/job/Castlebar-Mayo/QA-Visual-Inspection-SME_JR-197973",
    "first_seen": "2026-09-22",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -2388,7 +2504,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|viatris|/job/Baldoyle-Dublin-Ireland/Engineering-Technician_R5675032",
    "first_seen": "2026-10-28",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -2408,7 +2524,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|viatris|/job/Baldoyle-Dublin-Ireland/Engineering-Technician_R5674896",
    "first_seen": "2026-10-28",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -2426,7 +2542,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|viatris|/job/Baldoyle-Dublin-Ireland/QC-Analyst_R5675560",
    "first_seen": "2026-11-09",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -2444,7 +2560,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|viatris|/job/Baldoyle-Dublin-Ireland/QC-Analyst_R5675555",
    "first_seen": "2026-11-09",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -2462,28 +2578,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|viatris|/job/Baldoyle-Dublin-Ireland/QC-Analyst_R5675562",
    "first_seen": "2026-11-09",
-   "last_seen": "2026-11-20",
-   "active": true
-  },
-  {
-   "co": "Bristol Myers Squibb",
-   "t": "Senior Manager, Qualified Person",
-   "loc": "Dublin - IE",
-   "cty": "Dublin",
-   "d": "2026-11-06",
-   "u": "https://bristolmyerssquibb.wd5.myworkdayjobs.com/en-US/BMS/job/Dublin---IE/Senior-Manager--Qualified-Person_R1608137",
-   "c": [
-    "aseptic",
-    "capa",
-    "dsdp",
-    "qa",
-    "val"
-   ],
-   "fit": false,
-   "s": "Pharma & Biologics",
-   "id": "workday|bristolmyerssquibb|/job/Dublin---IE/Senior-Manager--Qualified-Person_R1608137",
-   "first_seen": "2026-11-06",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -2502,7 +2597,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|gilead|/job/Ireland---Cork/Manufacturing-Engineer-III_R0055384-2",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -2521,7 +2616,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|pciservices|/job/Dundalk-Co-Louth-IRL/Production-Training-Specialist_JR120480-1",
    "first_seen": "2026-11-06",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -2539,7 +2634,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|pciservices|/job/Stamullen-Co-Meath-IRL/Quality-Technician-Clinical_JR120252",
    "first_seen": "2026-11-06",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -2560,7 +2655,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|sanofi|/job/Waterford/Manufacturing-Science-and-Technology--MSAT--Graduate_R2877813",
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -2580,7 +2675,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|sanofi|/job/Waterford/Engineering-Graduate_R2877822",
    "first_seen": "2026-11-06",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -2598,7 +2693,7 @@
    "s": "Pharma & Biologics",
    "id": "smartrecruiters|AbbVie|3743990016651846",
    "first_seen": "2026-11-06",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -2618,7 +2713,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|jj|/job/Limerick-Ireland/XMLNAME-2027-Graduate-Process-Engineer_R-105577",
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -2635,7 +2730,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|jj|/job/Limerick-Ireland/XMLNAME-2027-Graduate-Moulding-Engineer_R-106816",
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -2654,7 +2749,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|regeneron|/job/Limerick/Temp---Process-Science-Associate---Cell-Bank-Inventory-Management_R51873",
    "first_seen": "2026-10-28",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -2672,7 +2767,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|regeneron|/job/Limerick/Automation-Engineer_R51237",
    "first_seen": "2026-10-08",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -2690,7 +2785,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|thermofisher|/job/Athlone-Ireland/Associate-Scientist---Biopharma--Core---Evening-Shift---Athlone--Ireland_R-01280104",
    "first_seen": "2026-11-05",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -2710,7 +2805,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|jj|/job/Limerick-Ireland/XMLNAME-2027-Graduate-Mechanical-Engineer_R-108361",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -2730,7 +2825,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|jj|/job/Limerick-Ireland/XMLNAME-2027-Graduate-Quality-Engineer_R-105368",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -2748,7 +2843,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|jj|/job/Limerick-Ireland/XMLNAME-2027-Graduate-Automation-Engineer_R-105388",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -2767,7 +2862,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|jj|/job/Limerick-Ireland/XMLNAME-2027-Graduate-Manufacturing-Engineer_R-106845-1",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -2785,7 +2880,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|thermofisher|/job/Athlone-Ireland/Scientist-I-Pharma_R-01372492-1",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -2802,7 +2897,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|bristolmyerssquibb|/job/Dublin---IE/Manager--Architecture---Components_R1604338-1",
    "first_seen": "2026-11-02",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -2823,7 +2918,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|viatris|/job/Inverin-County-Galway-Ireland/QA-Operations-Supervisor_R5674423",
    "first_seen": "2026-10-06",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -2840,7 +2935,7 @@
    "s": "Pharma & Biologics",
    "id": "smartrecruiters|AbbVie|3743990016524356",
    "first_seen": "2026-10-31",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -2860,7 +2955,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|pciservices|/job/Stamullen-Co-Meath-IRL/Associate-Director-Regulatory-Compliance_JR119975-1",
    "first_seen": "2026-10-30",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -2879,7 +2974,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|viatris|/job/Baldoyle-Dublin-Ireland/QA-Operations-Officer_R5674916",
    "first_seen": "2026-10-28",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -2899,7 +2994,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|viatris|/job/Baldoyle-Dublin-Ireland/Quality-Systems-Specialist_R5674914",
    "first_seen": "2026-10-28",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -2919,7 +3014,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|viatris|/job/Baldoyle-Dublin-Ireland/Qualified-Person_R5674900",
    "first_seen": "2026-10-28",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -2938,7 +3033,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|viatris|/job/Baldoyle-Dublin-Ireland/Manufacturing-Lead-MGR011_R5674918",
    "first_seen": "2026-10-28",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -2959,7 +3054,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|viatris|/job/Baldoyle-Dublin-Ireland/Production-Manager-MGR011_R5674919",
    "first_seen": "2026-10-28",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -2976,7 +3071,7 @@
    "s": "Pharma & Biologics",
    "id": "smartrecruiters|AbbVie|3743990016497319",
    "first_seen": "2026-10-30",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -2993,7 +3088,7 @@
    "s": "Pharma & Biologics",
    "id": "smartrecruiters|AbbVie|3743990016497986",
    "first_seen": "2026-10-30",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -3010,7 +3105,7 @@
    "s": "Pharma & Biologics",
    "id": "smartrecruiters|AbbVie|3743990016489736",
    "first_seen": "2026-10-30",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -3029,7 +3124,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|ipsen|/job/Dublin/Maintenance-Manager_R-22732",
    "first_seen": "2026-10-29",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -3047,7 +3142,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|regeneron|/job/Limerick/Manufacturing-Support-Technician_R52670",
    "first_seen": "2026-10-29",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -3065,7 +3160,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|regeneron|/job/Limerick/Associate-Biotech-Production-Specialist_R52669",
    "first_seen": "2026-10-29",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -3082,7 +3177,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|regeneron|/job/Limerick/Assoiate-Manufacturing-MES-Specialist_R51263",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -3099,7 +3194,7 @@
    "s": "Pharma & Biologics",
    "id": "smartrecruiters|AbbVie|3743990016428006",
    "first_seen": "2026-10-28",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -3117,7 +3212,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|thermofisher|/job/Athlone-Ireland/QA-Auditor-I_R-01366639",
    "first_seen": "2026-10-04",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -3136,7 +3231,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|thermofisher|/job/Cork-Co-Ireland/Lab-Support-Engineer---Client-dedicated_R-01373618",
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -3155,7 +3250,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|gehc|/job/Cork/CAPA-Leader_R4047859-1",
    "first_seen": "2026-10-24",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -3174,7 +3269,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|pciservices|/job/Stamullen-Co-Meath-IRL/CAD-Technician_JR120168-1",
    "first_seen": "2026-10-24",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -3194,7 +3289,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|pciservices|/job/Stamullen-Co-Meath-IRL/Maintenance-Technician_JR118918",
    "first_seen": "2026-09-05",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -3214,7 +3309,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|pciservices|/job/Stamullen-Co-Meath-IRL/Maintenance-Technician_JR119595",
    "first_seen": "2026-09-24",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -3232,7 +3327,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|thermofisher|/job/Athlone-Ireland/Facilities-Specialist-Mechanical-Technical-Facilities-Expert_R-01358797",
    "first_seen": "2026-09-05",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -3251,7 +3346,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|vantive|/job/Castlebar-Mayo/Stability-Specialist_JR-198727-1",
    "first_seen": "2026-10-23",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -3269,7 +3364,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|regeneron|/job/Limerick/Principal-Automation-Engineer_R51624",
    "first_seen": "2026-10-15",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -3288,7 +3383,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|thermofisher|/job/Remote-Ireland/Scientist-III--Field-Applications_R-01360588-1",
    "first_seen": "2026-09-05",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -3305,7 +3400,7 @@
    "s": "Pharma & Biologics",
    "id": "smartrecruiters|AbbVie|3743990016253836",
    "first_seen": "2026-10-21",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -3324,7 +3419,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|regeneron|/job/Limerick/Senior-Manager-Automation_R51711",
    "first_seen": "2026-10-21",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -3342,7 +3437,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|thermofisher|/job/Athlone-Ireland/Manager--People-Manager---Cell---Molecular-Biology---Athlone_R-01367848",
    "first_seen": "2026-10-01",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -3362,7 +3457,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|vantive|/job/Castlebar-Mayo/IT-Manager---MES-EMEA-Leader_JR-198538",
    "first_seen": "2026-10-21",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -3380,7 +3475,7 @@
    "s": "Pharma & Biologics",
    "id": "smartrecruiters|AbbVie|3743990016182583",
    "first_seen": "2026-10-17",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -3397,7 +3492,7 @@
    "s": "Pharma & Biologics",
    "id": "smartrecruiters|AbbVie|3743990016172541",
    "first_seen": "2026-10-17",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -3415,7 +3510,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|regeneron|/job/Limerick/Project-Engineer_R47148",
    "first_seen": "2026-09-05",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -3433,7 +3528,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|regeneron|/job/Limerick/Facilities-Engineer_R47620",
    "first_seen": "2026-09-05",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -3450,7 +3545,7 @@
    "s": "Pharma & Biologics",
    "id": "smartrecruiters|AbbVie|3743990016138186",
    "first_seen": "2026-10-15",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -3468,7 +3563,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|vantive|/job/Castlebar-Mayo/Production-Supervisor_JR-198583",
    "first_seen": "2026-10-14",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -3487,7 +3582,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|viatris|/job/Dublin-Office/Manager-Regulatory-CMC-Sciences--Injectables-_R5673595",
    "first_seen": "2026-10-15",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -3504,7 +3599,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|ipsen|/job/Dublin/Country-Manager--Ireland_R-22266",
    "first_seen": "2026-10-14",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -3525,7 +3620,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|viatris|/job/Inverin-County-Galway-Ireland/Senior-Microbiology-Team-Lead_R5669371",
    "first_seen": "2026-10-13",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -3542,7 +3637,7 @@
    "s": "Pharma & Biologics",
    "id": "smartrecruiters|AbbVie|3743990016012306",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -3561,7 +3656,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|thermofisher|/job/Athlone-Ireland/Staff-Scientist---Pharma_R-01369402",
    "first_seen": "2026-10-10",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -3578,7 +3673,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|thermofisher|/job/Athlone-Ireland/Manager---Pharma-Analytical-lab_R-01363149",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -3595,58 +3690,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|thermofisher|/job/Athlone-Ireland/Manager-Labs--Pharma_R-01348795",
    "first_seen": "2026-09-05",
-   "last_seen": "2026-11-20",
-   "active": true
-  },
-  {
-   "co": "AbbVie",
-   "t": "Director, Process Engineering",
-   "loc": "Sligo",
-   "cty": "Sligo",
-   "d": "2026-10-08",
-   "u": "https://jobs.smartrecruiters.com/AbbVie/3743990016004000",
-   "c": [
-    "dsdp"
-   ],
-   "fit": false,
-   "s": "Pharma & Biologics",
-   "id": "smartrecruiters|AbbVie|3743990016004000",
-   "first_seen": "2026-10-09",
-   "last_seen": "2026-11-20",
-   "active": true
-  },
-  {
-   "co": "AbbVie",
-   "t": "Director, Process Engineering",
-   "loc": "Cork",
-   "cty": "Cork",
-   "d": "2026-10-08",
-   "u": "https://jobs.smartrecruiters.com/AbbVie/3743990016004011",
-   "c": [
-    "dsdp"
-   ],
-   "fit": false,
-   "s": "Pharma & Biologics",
-   "id": "smartrecruiters|AbbVie|3743990016004011",
-   "first_seen": "2026-10-09",
-   "last_seen": "2026-11-20",
-   "active": true
-  },
-  {
-   "co": "AbbVie",
-   "t": "Director, Process Engineering",
-   "loc": "Dublin",
-   "cty": "Dublin",
-   "d": "2026-10-08",
-   "u": "https://jobs.smartrecruiters.com/AbbVie/3743990016004006",
-   "c": [
-    "dsdp"
-   ],
-   "fit": false,
-   "s": "Pharma & Biologics",
-   "id": "smartrecruiters|AbbVie|3743990016004006",
-   "first_seen": "2026-10-09",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -3664,7 +3708,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|vantive|/job/Castlebar-Mayo/Health---Safety-Specialist_JR-197876",
    "first_seen": "2026-09-18",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -3684,7 +3728,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|vantive|/job/Castlebar-Mayo/Polymer-engineer-Coop_JR-198284",
    "first_seen": "2026-10-08",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -3704,7 +3748,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|viatris|/job/Inverin-County-Galway-Ireland/Associate-Director-of-Engineering_R5670134",
    "first_seen": "2026-09-05",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -3721,7 +3765,7 @@
    "s": "Pharma & Biologics",
    "id": "smartrecruiters|AbbVie|3743990015910346",
    "first_seen": "2026-10-06",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -3739,7 +3783,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|regeneron|/job/Limerick/Temp-QA-Specialist_R51045",
    "first_seen": "2026-10-06",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -3759,7 +3803,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|thermofisher|/job/Athlone-Ireland/Scientist-II--LCMS_R-01369085",
    "first_seen": "2026-10-07",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -3776,7 +3820,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|thermofisher|/job/Athlone-Ireland/Scientist-II--Cell---Molecular-Biology---Core-hours_R-01348908",
    "first_seen": "2026-10-07",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -3793,7 +3837,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|thermofisher|/job/Athlone-Ireland/Study-Lead---Extractable---Leachables_R-01369087",
    "first_seen": "2026-10-06",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -3813,7 +3857,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|viatris|/job/Inverin-County-Galway-Ireland/Process-Engineer_R5674404",
    "first_seen": "2026-10-06",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -3830,7 +3874,7 @@
    "s": "Pharma & Biologics",
    "id": "smartrecruiters|AbbVie|3743990015885461",
    "first_seen": "2026-10-06",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -3850,7 +3894,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|viatris|/job/Baldoyle-Dublin-Ireland/Operational-Excellence-Lead_R5674439-1",
    "first_seen": "2026-10-06",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -3867,7 +3911,7 @@
    "s": "Pharma & Biologics",
    "id": "smartrecruiters|AbbVie|3743990015861092",
    "first_seen": "2026-10-03",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -3884,7 +3928,7 @@
    "s": "Pharma & Biologics",
    "id": "smartrecruiters|AbbVie|3743990015851716",
    "first_seen": "2026-10-03",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -3901,7 +3945,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|thermofisher|/job/Athlone-Ireland/Study-Lead---Pharma_R-01370386",
    "first_seen": "2026-10-04",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -3921,7 +3965,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|thermofisher|/job/Athlone-Ireland/Scientist-III--Inhalations-_R-01360593",
    "first_seen": "2026-09-05",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -3940,7 +3984,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|thermofisher|/job/Athlone-Ireland/QA-Auditor-III_R-01366640-1",
    "first_seen": "2026-10-04",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -3960,7 +4004,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|viatris|/job/Baldoyle-Dublin-Ireland/Sr-Manufacturing-Engineer_R5674037",
    "first_seen": "2026-09-19",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -3977,7 +4021,7 @@
    "s": "Pharma & Biologics",
    "id": "smartrecruiters|AbbVie|3743990015842706",
    "first_seen": "2026-10-02",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -3998,7 +4042,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|amgen|/job/Ireland---Dun-Laoghaire/Sr-Automation-Engineer---Packaging_R-250474",
    "first_seen": "2026-10-01",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -4015,7 +4059,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|pciservices|/job/Stamullen-Co-Meath-IRL/IRE-Progamme-Manager_JR118502",
    "first_seen": "2026-10-01",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -4035,7 +4079,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|thermofisher|/job/Athlone-Ireland/Research-Scientist--Biopharma--Core-Shift-_R-01353160-1",
    "first_seen": "2026-09-05",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -4053,7 +4097,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|regeneron|/job/Dublin/Associate-Director--Global-Patient-Safety-Standards---Training_R50969",
    "first_seen": "2026-09-29",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -4072,7 +4116,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|pciservices|/job/Dundalk-Co-Louth-IRL/Quality-Manager---Pharmaceutical-Distribution_JR119687",
    "first_seen": "2026-09-23",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -4090,7 +4134,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|gilead|/job/Ireland---Cork/Senior-Manager--Master-Data-Governance---Data-Lead_R0047916",
    "first_seen": "2026-09-05",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -4107,7 +4151,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|regeneron|/job/Dublin/Director--Global-Patient-Safety-Sciences-Delivery---Rare-Disease_R50470",
    "first_seen": "2026-09-19",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -4125,7 +4169,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|thermofisher|/job/Athlone-Ireland/Group-Leader--Biopharma--Core-day-shift----Athlone--Ireland_R-01348913",
    "first_seen": "2026-09-05",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -4143,7 +4187,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|gehc|/job/Remote/Service---Field-Service-Engineer--FSE----Multi-Modality-Imaging--MRI---CT---XR---Ultrasound----Limerick--Ireland_R4045883-1",
    "first_seen": "2026-09-10",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -4161,7 +4205,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|regeneron|/job/Limerick/Principal-Facilities-Engineer_R48619",
    "first_seen": "2026-09-09",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -4179,7 +4223,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|vantive|/job/Castlebar-Mayo/Product-Development-Engineer_JR-197613",
    "first_seen": "2026-09-08",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -4196,7 +4240,7 @@
    "s": "Pharma & Biologics",
    "id": "smartrecruiters|AbbVie|3743990015074106",
    "first_seen": "2026-09-05",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -4213,7 +4257,7 @@
    "s": "Pharma & Biologics",
    "id": "smartrecruiters|AbbVie|3743990015009326",
    "first_seen": "2026-09-05",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -4230,7 +4274,7 @@
    "s": "Pharma & Biologics",
    "id": "smartrecruiters|AbbVie|3743990014966976",
    "first_seen": "2026-09-05",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -4247,7 +4291,7 @@
    "s": "Pharma & Biologics",
    "id": "smartrecruiters|AbbVie|3743990014945266",
    "first_seen": "2026-09-05",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -4264,7 +4308,7 @@
    "s": "Pharma & Biologics",
    "id": "smartrecruiters|AbbVie|3743990014862686",
    "first_seen": "2026-09-05",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -4283,7 +4327,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|viatris|/job/Inverin-County-Galway-Ireland/QC-Analyst-Level-I_R5673280",
    "first_seen": "2026-09-05",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -4302,7 +4346,26 @@
    "s": "Pharma & Biologics",
    "id": "workday|regeneron|/job/Limerick/Associate-Manager-Quality-Control--Microbiology-_R46658",
    "first_seen": "2026-09-05",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
+   "active": true
+  },
+  {
+   "co": "Viatris",
+   "t": "Design Assurance Engineer, Device Technical Operations ( 18 Months FTC )",
+   "loc": "Northern Cross, Dublin, Ireland",
+   "cty": "Dublin",
+   "d": "2026-08-24",
+   "u": "https://viatris.wd5.myworkdayjobs.com/en-US/External/job/Northern-Cross-Dublin-Ireland/Scientist-Engineer--Device-Technical-Operations--DDA---18-Month-Fixed-Term-Contract-_R5666596",
+   "c": [
+    "capa",
+    "qa",
+    "val"
+   ],
+   "fit": false,
+   "s": "Pharma & Biologics",
+   "id": "workday|viatris|/job/Northern-Cross-Dublin-Ireland/Scientist-Engineer--Device-Technical-Operations--DDA---18-Month-Fixed-Term-Contract-_R5666596",
+   "first_seen": "2026-09-05",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -4322,7 +4385,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|regeneron|/job/Limerick/Project-Engineer_R49585",
    "first_seen": "2026-09-05",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -4342,7 +4405,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|regeneron|/job/Limerick/Senior-Mechanical-Engineer_R49590",
    "first_seen": "2026-09-05",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -4361,7 +4424,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|regeneron|/job/Limerick/Sr-QA-Validation-Specialist_R49428",
    "first_seen": "2026-09-05",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -4380,7 +4443,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|regeneron|/job/Limerick/Senior-QA-Validation-Specialist_R48401",
    "first_seen": "2026-09-05",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -4400,7 +4463,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|regeneron|/job/Limerick/Project-Engineer_R49773",
    "first_seen": "2026-09-05",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -4420,7 +4483,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|viatris|/job/Inverin-County-Galway-Ireland/Quality-Control-Analyst-level-III_R5669493",
    "first_seen": "2026-09-05",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -4437,7 +4500,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|thermofisher|/job/Athlone-Ireland/Scientist-II--Biopharma---Core-or-evening-shift_R-01348910",
    "first_seen": "2026-09-05",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -4456,7 +4519,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|viatris|/job/Inverin-County-Galway-Ireland/Maintenance-Technician_R5667990",
    "first_seen": "2026-09-05",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -4474,7 +4537,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|novartis|/job/Dublin-NOCC/Senior-Scientific-Engagement---Program-Manager_REQ-10084541-1",
    "first_seen": "2026-09-06",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -4494,7 +4557,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|viatris|/job/Damastown-Dublin-Ireland/Engineering-Technician---12-Months-Agency-Contract--_R5671825",
    "first_seen": "2026-09-05",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -4512,7 +4575,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|viatris|/job/Inverin-County-Galway-Ireland/CSV-Manager_R5671680-1",
    "first_seen": "2026-09-05",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -4531,7 +4594,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|thermofisher|/job/Athlone-Ireland/Supervisor--People-Manager---Biopharma---Athlone--Ireland_R-01342566",
    "first_seen": "2026-09-05",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -4551,7 +4614,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|viatris|/job/Inverin-County-Galway-Ireland/Senior-Analytical-Manager--R-D_R5671064",
    "first_seen": "2026-09-05",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -4568,7 +4631,7 @@
    "s": "Pharma & Biologics",
    "id": "smartrecruiters|AbbVie|3743990013928286",
    "first_seen": "2026-09-05",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -4587,7 +4650,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|viatris|/job/Damastown-Dublin-Ireland/Validation-Specialist---18-Months-Agency-Contract--_R5670467-1",
    "first_seen": "2026-09-05",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -4604,7 +4667,7 @@
    "s": "Pharma & Biologics",
    "id": "smartrecruiters|AbbVie|3743990013659886",
    "first_seen": "2026-09-05",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -4621,7 +4684,7 @@
    "s": "Pharma & Biologics",
    "id": "smartrecruiters|AbbVie|3743990013615156",
    "first_seen": "2026-09-05",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -4641,7 +4704,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|viatris|/job/Inverin-County-Galway-Ireland/Cleaning-Validation-Specialist_R5669970",
    "first_seen": "2026-09-05",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -4659,7 +4722,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|pciservices|/job/Stamullen-Co-Meath-IRL/Manager--Automation-Engineering_JR118190-1",
    "first_seen": "2026-09-05",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -4676,7 +4739,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|viatris|/job/Northern-Cross-Dublin-Ireland/Senior-Manager--Core-Labelling-Strategy--12-month-agency-contract-_R5669586",
    "first_seen": "2026-09-05",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -4694,7 +4757,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|viatris|/job/Northern-Cross-Dublin-Ireland/Manager-Corporate-Drug-Regulatory-Affairs_R5669302",
    "first_seen": "2026-09-05",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -4713,7 +4776,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|jj|/job/Ringaskiddy-Cork-Ireland/Manager--Safe-Fleet-Process-Owner_R-073354-1",
    "first_seen": "2026-09-05",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -4731,7 +4794,7 @@
    "s": "Pharma & Biologics",
    "id": "workday|amgen|/job/Ireland---Dun-Laoghaire/Sr-Associate-Tax_R-196841",
    "first_seen": "2026-09-05",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "active": true
   },
   {
@@ -4797,6 +4860,25 @@
   },
   {
    "co": "Regeneron",
+   "t": "Clinical Supply Operations Specialist",
+   "loc": "Dublin",
+   "cty": "Dublin",
+   "d": "2026-11-16",
+   "u": "https://regeneron.wd1.myworkdayjobs.com/en-US/Careers/job/Dublin/Clinical-Supply-Operations-Specialist_R53132",
+   "c": [
+    "dsdp",
+    "qa"
+   ],
+   "fit": false,
+   "s": "Pharma & Biologics",
+   "id": "workday|regeneron|/job/Dublin/Clinical-Supply-Operations-Specialist_R53132",
+   "first_seen": "2026-11-17",
+   "last_seen": "2026-11-20",
+   "active": false,
+   "expired_on": "2026-11-21"
+  },
+  {
+   "co": "Regeneron",
    "t": "IT Applications Analyst - Quality Systems",
    "loc": "Limerick",
    "cty": "Limerick",
@@ -4813,27 +4895,6 @@
    "last_seen": "2026-11-19",
    "active": false,
    "expired_on": "2026-11-20"
-  },
-  {
-   "co": "Baxter",
-   "t": "Quality Specialist",
-   "loc": "Dublin",
-   "cty": "Dublin",
-   "d": "2026-11-13",
-   "u": "https://baxter.wd1.myworkdayjobs.com/en-US/baxter/job/Dublin/Quality-Specialist_JR-212094-1",
-   "c": [
-    "aseptic",
-    "capa",
-    "qa",
-    "val"
-   ],
-   "fit": true,
-   "s": "Pharma & Biologics",
-   "id": "workday|baxter|/job/Dublin/Quality-Specialist_JR-212094-1",
-   "first_seen": "2026-11-15",
-   "last_seen": "2026-11-18",
-   "active": false,
-   "expired_on": "2026-11-19"
   },
   {
    "co": "Bristol Myers Squibb",
@@ -4894,6 +4955,24 @@
    "last_seen": "2026-11-16",
    "active": false,
    "expired_on": "2026-11-17"
+  },
+  {
+   "co": "Johnson & Johnson",
+   "t": "Sr Manager, Business Continuity & Risk Process Lead",
+   "loc": "Ringaskiddy, Cork, Ireland",
+   "cty": "Cork",
+   "d": "2026-11-13",
+   "u": "https://jj.wd5.myworkdayjobs.com/en-US/JJ/job/Ringaskiddy-Cork-Ireland/Business-Continuity---Risk-Process-Lead_R-110140-2",
+   "c": [
+    "capa"
+   ],
+   "fit": false,
+   "s": "Pharma & Biologics",
+   "id": "workday|jj|/job/Ringaskiddy-Cork-Ireland/Business-Continuity---Risk-Process-Lead_R-110140-2",
+   "first_seen": "2026-11-10",
+   "last_seen": "2026-11-20",
+   "active": false,
+   "expired_on": "2026-11-21"
   },
   {
    "co": "Regeneron",
@@ -5237,6 +5316,28 @@
    "last_seen": "2026-11-09",
    "active": false,
    "expired_on": "2026-11-10"
+  },
+  {
+   "co": "Bristol Myers Squibb",
+   "t": "Senior Manager, Qualified Person",
+   "loc": "Dublin - IE",
+   "cty": "Dublin",
+   "d": "2026-11-06",
+   "u": "https://bristolmyerssquibb.wd5.myworkdayjobs.com/en-US/BMS/job/Dublin---IE/Senior-Manager--Qualified-Person_R1608137",
+   "c": [
+    "aseptic",
+    "capa",
+    "dsdp",
+    "qa",
+    "val"
+   ],
+   "fit": false,
+   "s": "Pharma & Biologics",
+   "id": "workday|bristolmyerssquibb|/job/Dublin---IE/Senior-Manager--Qualified-Person_R1608137",
+   "first_seen": "2026-11-06",
+   "last_seen": "2026-11-20",
+   "active": false,
+   "expired_on": "2026-11-21"
   },
   {
    "co": "Bristol Myers Squibb",
@@ -7498,26 +7599,6 @@
    "expired_on": "2026-11-04"
   },
   {
-   "co": "Regeneron",
-   "t": "Temp Assoc QC Analyst",
-   "loc": "Limerick",
-   "cty": "Limerick",
-   "d": "2026-10-20",
-   "u": "https://regeneron.wd1.myworkdayjobs.com/en-US/Careers/job/Limerick/Technical-Training-Specialist-QC--Temp-_R45653",
-   "c": [
-    "capa",
-    "qa",
-    "val"
-   ],
-   "fit": false,
-   "s": "Pharma & Biologics",
-   "id": "workday|regeneron|/job/Limerick/Technical-Training-Specialist-QC--Temp-_R45653",
-   "first_seen": "2026-09-05",
-   "last_seen": "2026-11-03",
-   "active": false,
-   "expired_on": "2026-11-04"
-  },
-  {
    "co": "Vantive",
    "t": "Renal Therapy Specialist, Peritoneal Dialysis",
    "loc": "Castlebar, Mayo",
@@ -8120,27 +8201,6 @@
    "expired_on": "2026-10-28"
   },
   {
-   "co": "Sanofi",
-   "t": "Batch Release Lead Qualified Person",
-   "loc": "Waterford",
-   "cty": "Waterford",
-   "d": "2026-10-14",
-   "u": "https://sanofi.wd3.myworkdayjobs.com/en-US/SanofiCareers/job/Waterford/Batch-Release-Lead-Qualified-Person_R2871936",
-   "c": [
-    "aseptic",
-    "dsdp",
-    "qa",
-    "val"
-   ],
-   "fit": false,
-   "s": "Pharma & Biologics",
-   "id": "workday|sanofi|/job/Waterford/Batch-Release-Lead-Qualified-Person_R2871936",
-   "first_seen": "2026-09-24",
-   "last_seen": "2026-10-27",
-   "active": false,
-   "expired_on": "2026-10-28"
-  },
-  {
    "co": "AbbVie",
    "t": "Associate Director, Aseptic Product Quality",
    "loc": "Dublin",
@@ -8643,6 +8703,60 @@
    "last_seen": "2026-10-22",
    "active": false,
    "expired_on": "2026-10-23"
+  },
+  {
+   "co": "AbbVie",
+   "t": "Director, Process Engineering",
+   "loc": "Sligo",
+   "cty": "Sligo",
+   "d": "2026-10-08",
+   "u": "https://jobs.smartrecruiters.com/AbbVie/3743990016004000",
+   "c": [
+    "dsdp"
+   ],
+   "fit": false,
+   "s": "Pharma & Biologics",
+   "id": "smartrecruiters|AbbVie|3743990016004000",
+   "first_seen": "2026-10-09",
+   "last_seen": "2026-11-20",
+   "active": false,
+   "expired_on": "2026-11-21"
+  },
+  {
+   "co": "AbbVie",
+   "t": "Director, Process Engineering",
+   "loc": "Cork",
+   "cty": "Cork",
+   "d": "2026-10-08",
+   "u": "https://jobs.smartrecruiters.com/AbbVie/3743990016004011",
+   "c": [
+    "dsdp"
+   ],
+   "fit": false,
+   "s": "Pharma & Biologics",
+   "id": "smartrecruiters|AbbVie|3743990016004011",
+   "first_seen": "2026-10-09",
+   "last_seen": "2026-11-20",
+   "active": false,
+   "expired_on": "2026-11-21"
+  },
+  {
+   "co": "AbbVie",
+   "t": "Director, Process Engineering",
+   "loc": "Dublin",
+   "cty": "Dublin",
+   "d": "2026-10-08",
+   "u": "https://jobs.smartrecruiters.com/AbbVie/3743990016004006",
+   "c": [
+    "dsdp"
+   ],
+   "fit": false,
+   "s": "Pharma & Biologics",
+   "id": "smartrecruiters|AbbVie|3743990016004006",
+   "first_seen": "2026-10-09",
+   "last_seen": "2026-11-20",
+   "active": false,
+   "expired_on": "2026-11-21"
   },
   {
    "co": "AbbVie",
@@ -11450,25 +11564,6 @@
    "expired_on": "2026-10-06"
   },
   {
-   "co": "Baxter",
-   "t": "Technician, Production",
-   "loc": "Dublin",
-   "cty": "Dublin",
-   "d": "2026-09-16",
-   "u": "https://baxter.wd1.myworkdayjobs.com/en-US/baxter/job/Dublin/Technician--Production_JR-209642-1",
-   "c": [
-    "aseptic",
-    "val"
-   ],
-   "fit": false,
-   "s": "Pharma & Biologics",
-   "id": "workday|baxter|/job/Dublin/Technician--Production_JR-209642-1",
-   "first_seen": "2026-09-17",
-   "last_seen": "2026-09-18",
-   "active": false,
-   "expired_on": "2026-09-19"
-  },
-  {
    "co": "Bristol Myers Squibb",
    "t": "Manager, Trial Supplies Management",
    "loc": "Dublin - IE",
@@ -12796,24 +12891,6 @@
    "last_seen": "2026-10-27",
    "active": false,
    "expired_on": "2026-10-28"
-  },
-  {
-   "co": "Thermo Fisher Scientific",
-   "t": "Supervisor, Biopharma",
-   "loc": "Athlone, Ireland",
-   "cty": "Westmeath",
-   "d": "2026-09-08",
-   "u": "https://thermofisher.wd5.myworkdayjobs.com/en-US/ThermoFisherCareers/job/Athlone-Ireland/Supervisor--Biopharma_R-01351146",
-   "c": [
-    "dsdp"
-   ],
-   "fit": false,
-   "s": "Pharma & Biologics",
-   "id": "workday|thermofisher|/job/Athlone-Ireland/Supervisor--Biopharma_R-01351146",
-   "first_seen": "2026-09-08",
-   "last_seen": "2026-09-15",
-   "active": false,
-   "expired_on": "2026-09-16"
   },
   {
    "co": "Amgen",
@@ -14470,26 +14547,6 @@
    "last_seen": "2026-09-06",
    "active": false,
    "expired_on": "2026-09-07"
-  },
-  {
-   "co": "Viatris",
-   "t": "Design Assurance Engineer, Device Technical Operations ( 18 Months FTC )",
-   "loc": "Northern Cross, Dublin, Ireland",
-   "cty": "Dublin",
-   "d": "2026-08-24",
-   "u": "https://viatris.wd5.myworkdayjobs.com/en-US/External/job/Northern-Cross-Dublin-Ireland/Scientist-Engineer--Device-Technical-Operations--DDA---18-Month-Fixed-Term-Contract-_R5666596",
-   "c": [
-    "capa",
-    "qa",
-    "val"
-   ],
-   "fit": false,
-   "s": "Pharma & Biologics",
-   "id": "workday|viatris|/job/Northern-Cross-Dublin-Ireland/Scientist-Engineer--Device-Technical-Operations--DDA---18-Month-Fixed-Term-Contract-_R5666596",
-   "first_seen": "2026-09-05",
-   "last_seen": "2026-11-08",
-   "active": false,
-   "expired_on": "2026-11-09"
   },
   {
    "co": "AbbVie",
